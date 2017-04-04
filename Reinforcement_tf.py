@@ -7,6 +7,9 @@
 # added a few things to their sample code 
 
 # first pass stock estimates using random policy reinforcement learning 
+# Unimpressed - tried various look back time and other parameters
+# still does about the same as random guesses but with a wider STD
+# More important - it's not clear why the network makes the trades it does
 
 
 
