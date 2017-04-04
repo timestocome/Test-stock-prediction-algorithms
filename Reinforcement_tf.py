@@ -35,7 +35,7 @@ end_date = '2017-04-01'
 
 
 # network constants
-history = 20             
+history = 20                # about 20 trading days/month       
 n_hidden1 = history
 
 ####################################################################################
