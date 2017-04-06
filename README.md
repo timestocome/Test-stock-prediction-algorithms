@@ -3,7 +3,9 @@ Use deep learning, genetic programming and other methods to predict stock and ma
 
 <b>To do:</b>
 
-Try various Tensorflow Theano RNN/LSTM/GRUs on stock data
+Try various Tensorflow and Theano RNN/LSTM/GRUs on stock data
+
+Try some GA trading bots
 
 https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-xgboost/amp/
 
