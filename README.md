@@ -1,7 +1,8 @@
 # StockPredictions
 Use deep learning, genetic programming and other methods to predict stock and market movements
 
-To do:
+<b>To do:</b>
+
 Try various Tensorflow Theano RNN/LSTM/GRUs on stock data
 
 https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-xgboost/amp/
