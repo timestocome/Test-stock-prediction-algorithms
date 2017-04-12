@@ -6,6 +6,10 @@
 
 # try using a LSTM to predict DJIA using only the DJIA
 
+# This converges to a low error rate for both several years, and 1 year 
+# test data looks good, prediction looks terrible.
+# not a good method to predict stock futures
+
 
 
 import tensorflow as tf
@@ -14,10 +18,17 @@ import matplotlib.pyplot as plt
 
 
 
-window_size = 10            # ~ 5 trading days per week   
-n_hidden = 60               # ~ 21 trading days per month
-start_year = 2015           # data is 1900-2017 pick year to start training 
+window_size =10            # ~ 5 trading days per week   
+n_hidden = 44              # ~ 21 trading days per month
+
+# select years
+start_year = 2010           # data is 1900-2017 pick year to start training 
 end_year = 2016
+
+
+# select n most recent days
+n_days = 300
+
 
 class SeriesPredictor:
 
@@ -32,7 +43,8 @@ class SeriesPredictor:
         self.x = tf.placeholder(tf.float32, [None, window_size, n_input])
         self.y = tf.placeholder(tf.float32, [None, window_size])
 
-        self.cost = tf.reduce_mean(tf.square(self.model() - self.y))
+        #self.cost = tf.reduce_mean(tf.square(self.model() - self.y))
+        self.cost = tf.reduce_mean(tf.abs(self.y - self.model()))
         self.train_op = tf.train.AdamOptimizer().minimize(self.cost)
 
         self.saver = tf.train.Saver()
@@ -106,10 +118,18 @@ def load_series(filename, idx=1):
     z.columns = ['date', 'value']
 
 
-    # chose data
-    z['year'] = pd.DatetimeIndex(z.date).year
-    z = z[z.year >= start_year]
-    z = z[z.year <= end_year]
+    # chose data by year
+    #z['year'] = pd.DatetimeIndex(z.date).year
+    #z = z[z.year >= start_year]
+    #z = z[z.year <= end_year]
+
+
+
+    # chose data by count back from most recent
+    n_samples = len(z)
+    start_day = n_samples - n_days
+    z = z.ix[start_day:n_samples]
+    print("sample count", len(z))
 
     # format data
     data = z['value'].tolist()
@@ -118,7 +138,7 @@ def load_series(filename, idx=1):
     return normalized_data        
 
 
-def split_data(data, percent_train = 0.80):
+def split_data(data, percent_train = 0.95):
 
     n_rows = len(data)
     train_data, test_data = [], []
@@ -144,9 +164,9 @@ def plot_results(train_x, predictions, actual, filename):
     plt.plot(list(range(num_train, num_train + len(predictions))), predictions, color='r', label='predicted')
     plt.plot(list(range(num_train, num_train + len(actual))), actual, color='g', label='test data')
 
-    plt.xticks([1,250], ['2015', '2016'] )  # ~250 trading days / year
+    plt.xticks([1,250], ['2016'] )  # ~250 trading days / year
 
-    plt.legend()
+    plt.legend(bbox_to_anchor=(1, 0.5))
     
     if filename is not None:
         plt.savefig(filename)
@@ -172,8 +192,6 @@ for i in range(len(test_data) - window_size - 1):
     test_x.append(np.expand_dims(test_data[i:i+window_size], axis=1).tolist())
     test_y.append(test_data[i+1:i+window_size+1])
 
-
-
 predictor.train(train_x, train_y, test_x, test_y)
 
 
@@ -191,11 +209,14 @@ with tf.Session() as sess:
 
 
 
-    for i in range(window_size * 2):
+    for i in range(250):            # ~ 1 year
 
         next_sequence = predictor.test(sess, [previous_sequence])
         predicted_values.append(next_sequence[-1])
         previous_sequence = np.vstack((previous_sequence[1:], next_sequence[-1]))
+
+    #print("Predicted values:")
+    #print(predicted_values)
 
     plot_results(train_data, predicted_values, test_data, 'Predictions_test.png')
 
