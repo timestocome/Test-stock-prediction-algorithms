@@ -1,5 +1,6 @@
 # StockPredictions
-Use deep learning, genetic programming and other methods to predict stock and market movements
+Use classic tricks, deep learning, genetic programming and other methods to predict stock and market movements
+Both successful and unsuccessful experiments will be posted. 
 
 <b>To do:</b>
 
