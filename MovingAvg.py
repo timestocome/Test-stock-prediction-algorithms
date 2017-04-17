@@ -4,13 +4,15 @@
 
 # test buy when MA crosses under share price, sell when share price over MA
 # 
-# this is the first test draft, all I had time to do today
-
 
 # First run, brute force through all moving average windows
 # using either fixed share amounts or fixed dollar amounts
 # buy under, sell over
-# Doesn't work, only one to make money buys on fixed dollar amounts over time > 241 trading days.
+# Buying and selling on MA won't work unless you invest at least $500, otherwise commissions
+# eat up all of your profit
+#
+# At $500+/trade you can make money but the longer your window the more you make so buy and hold is
+# still the best strategy.
 
 
 
@@ -40,13 +42,13 @@ end_year = 2016
 
 seed_money = 10000.         # starting cash for bots
 commission = 7.             # flat commission per trade
-fixed_rate = 100.           # fixed dollar bot 
-fixed_share = 5.            # fixed share bot
+fixed_rate = 500.           # fixed dollar bot 
+fixed_share = 10.            # fixed share bot
 
 
 
-print("Test buying / selling on moving average")
-print("Test fixed dollar purchases against fixed number of shares")
+print("Test buying / selling on moving average with $10,000 seed money")
+print("Test fixed dollar purchases between 1980-2016")
 
 
 ###################################################################################
@@ -132,14 +134,14 @@ dja['SharePrice'] = dja['DJIA'] / 1000.
 # loop over several MA windows
 ##########################################################################
 
-smallest_window = 5     # ~1 week
+smallest_window = 21     # ~1 month
 largest_window = 251    # ~ 1 year
 windows = range(smallest_window, largest_window)
 
 
 # for plotting
-fixed_profit = []
-share_profit = []
+profit = []
+fees = []
 
 
 for w in windows:
@@ -191,18 +193,14 @@ for w in windows:
 
 
     print("*************************************************************")
-    print("Final tally using %d trading days as window:" % w)
-    print("Shares bot final $ %.2lf" % bot_shares.cash_on_hand )
-    print("Fixed $ bot final $ %.2lf" % bot_fixed.cash_on_hand)
-
-
-    # print ma days
-    print("Cross over days:", len(crossOverDays))
+    n_crossover_days = len(crossOverDays)
+    print("Final $ %.2lf using %d trading days as window:" % (bot_fixed.cash_on_hand, w))
+    print("Cross over days: %d, trading fees $%.2lf" % (n_crossover_days, n_crossover_days * commission))
 
 
     # save for plotting
-    fixed_profit.append(bot_fixed.cash_on_hand)
-    share_profit.append(bot_shares.cash_on_hand)
+    fees.append(n_crossover_days * commission)
+    profit.append(bot_shares.cash_on_hand)
 
 
 
@@ -210,9 +208,9 @@ for w in windows:
 # end loop
 #######################################################################
 
-plt.title("Trade on Moving Average, Blue fixed $, Green fixed # shares")
-plt.plot(windows, fixed_profit, c='b')
-plt.plot(windows, share_profit, c='g')
+plt.title("Trade on Moving Average 1980-2016, Start with 10k seed money, $500 trades")
+plt.plot(windows, profit, c='b', linewidth=3)
+plt.plot(windows, fees, c='r', linewidth=2)
 plt.show()
 
 
