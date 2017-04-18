@@ -49,12 +49,16 @@ print("Test fixed dollar purchases between 1980-2016")
 start_year = 1980           # data is 1900-2017 pick year to start training 
 end_year = 2016
 
+
+# bot stuff
 seed_money = 10000.         # starting cash for bots
 commission = 7.             # flat commission per trade
 fixed_rate = 500.           # fixed dollar bot 
 
 
-
+# moving average window sized to loop over
+smallest_window = 21     # ~1 month
+largest_window = 251    # ~ 1 year
 
 
 
@@ -123,8 +127,7 @@ dja['SharePrice'] = dja['DJIA'] / 1000.
 # loop over several MA windows
 ##########################################################################
 
-smallest_window = 21     # ~1 month
-largest_window = 251    # ~ 1 year
+
 windows = range(smallest_window, largest_window)
 
 
@@ -193,8 +196,11 @@ for w in windows:
 # end loop
 #######################################################################
 
+
+
+
 ######################################################################
-# create buy a set a month first trading day each year to compare
+# compare buying set amount 1st of each year to MA bot results
 ####################################################################
 years = end_year - start_year
 yearly_investment_dollars = seed_money / years
@@ -215,11 +221,18 @@ for ix, row in one_trade_yr.iterrows():
 total_buy_and_hold = last_price * total_shares_buy_and_hold - commission
 print("Total $%.2lf for buy fixed amount each year " % total_buy_and_hold)
 
-
+##########################################################################
+# plot
+##########################################################################
 plt.title("Trade on Moving Average 1980-2016, Start with 10k seed money, $500 trades")
-plt.plot(profit, c='b', linewidth=3)
-plt.plot(fees, c='r', linewidth=2)
+returns = plt.plot(profit, c='b', linewidth=3, label="Return")
+fees = plt.plot(fees, c='r', linewidth=2, label="Fees")
+plt.xlabel("Days in moving average window")
+plt.ylabel("Total return $")
+plt.text(y=20, x=3, s="Buying a fixed amount each year and holding nets you %56K" )
 plt.show()
 
+
+plt.savefig("MovingAverageTradingDays.png")
 
 
