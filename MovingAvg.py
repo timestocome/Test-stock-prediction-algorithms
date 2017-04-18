@@ -112,14 +112,33 @@ class bot():
 ##########################################################################
 # data is from  https://www.measuringworth.com/datasets/DJA/index.php
 ##########################################################################
+'''
 # read in DJA
-dja = pd.read_csv('DJA.csv')        # 31747 days of data 
-n_samples = len(dja)
-
+stock_data = pd.read_csv('DJA.csv')        # 31747 days of data 
+n_samples = len(stock_data)
 
 # set share price to be 1/1000 of dja
-dja["Year"] = pd.DatetimeIndex(dja['Date']).year
-dja['SharePrice'] = dja['DJIA'] / 1000.
+stock_data["Year"] = pd.DatetimeIndex(stock_data['Date']).year
+stock_data['SharePrice'] = stock_data['DJIA'] / 1000.
+
+stock_data['Close'] = stock_data['DJIA']
+
+'''
+
+
+
+# read in NASDAQ
+stock_data = pd.read_csv('nasdaq.csv')
+stock_data = stock_data[['Date', 'Close']]
+
+
+# set share price to be 1/1000 of daily index
+stock_data["Year"] = pd.DatetimeIndex(stock_data['Date']).year
+stock_data['SharePrice'] = stock_data['Close'] / 1000.
+
+
+
+
 
 
 
@@ -134,14 +153,15 @@ windows = range(smallest_window, largest_window)
 # for plotting
 profit = []         # cash on hand at end
 fees = []           # trading fees ( commissions )
+window = []         # days in trading window
 
 
 for w in windows:
     
     # calculate moving avg, crossovers and over/under
-    dja['MA'] = dja['DJIA'].rolling(window=w).mean()
-    dja['OverUnder'] = np.where(dja['DJIA'] > dja['MA'], 1, 0)
-    dja['CrossOver'] = np.where(dja['OverUnder'] != dja['OverUnder'].shift(1), 1, 0)
+    stock_data['MA'] = stock_data['Close'].rolling(window=w).mean()
+    stock_data['OverUnder'] = np.where(stock_data['Close'] > stock_data['MA'], 1, 0)
+    stock_data['CrossOver'] = np.where(stock_data['OverUnder'] != stock_data['OverUnder'].shift(1), 1, 0)
 
 
     # look at data, make sure looks good.
@@ -149,16 +169,17 @@ for w in windows:
 
 
     # set the time frame to run simulations
-    dja['year'] = pd.DatetimeIndex(dja.Date).year
-    dja = dja[dja.year >= start_year]
-    dja = dja[dja.year <= end_year]
+    stock_data['year'] = pd.DatetimeIndex(stock_data.Date).year
+    stock_data = stock_data[stock_data.year >= start_year]
+    stock_data = stock_data[stock_data.year <= end_year]
 
 
     trader = bot()
+    window.append(w)
     
 
     # make list of cross over days and split into over/under days
-    crossOverDays = dja[dja['CrossOver'] == 1]
+    crossOverDays = stock_data[stock_data['CrossOver'] == 1]
     last_price = 0
 
     for ix, row in crossOverDays.iterrows():
@@ -195,7 +216,11 @@ for w in windows:
 # end loop
 #######################################################################
 
-
+# top windows
+indexes = np.argmax(np.asarray(profit))
+print("Max: ", indexes)
+#for i in indexes:
+#    print("Top MA windows: %d days, %.2lf net" % (window[i], profit[i]))
 
 
 ######################################################################
@@ -204,7 +229,7 @@ for w in windows:
 years = end_year - start_year
 yearly_investment_dollars = seed_money / years
 
-one_trade_yr = dja.groupby(['Year']).first()
+one_trade_yr = stock_data.groupby(['Year']).first()
 
 # chose a time frame to run simulations
 one_trade_yr = one_trade_yr[one_trade_yr.year >= start_year]
@@ -225,13 +250,13 @@ print("Total $%.2lf if bought fixed amount ( 10k/yrs ~ $278 ) each year " % tota
 ##########################################################################
 # plot
 ##########################################################################
-plt.title("Trade on Moving Average 1980-2016, Start with 10k seed money, $500 trades")
+plt.title("Trade on NASDAQ Moving Average 1980-2016, Start with 10k seed money, $500 trades")
 returns = plt.plot(profit, c='b', linewidth=3, label="Return")
 fees = plt.plot(fees, c='r', linewidth=2, label="Fees")
 plt.xlabel("Days in moving average window")
 plt.ylabel("Total return $")
 plt.legend(loc='upper left')
-plt.text(y=20, x=3, s="Buying fixed 10k/yrs each year and holding nets you $56K" )
+plt.text(y=20, x=3, s="Buying fixed 10k/yrs each year and holding nets you $2951K" )
 
 plt.savefig("MovingAverageTrading.png")
 
