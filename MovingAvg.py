@@ -6,8 +6,8 @@
 # 
 
 # First run, brute force through all moving average windows
-# using either fixed share amounts or fixed dollar amounts
-# buy under, sell over
+# using fixed dollar amounts to buy and sell.
+#
 # Buying and selling on MA won't work unless you invest at least $500, otherwise commissions
 # eat up all of your profit
 #
@@ -17,13 +17,13 @@
 # double what buying and selling the MA does
 # MA best window is 186 days
 # Worst were below 60 and between 237-247 ??? I plotted commissions, there's not a big jump at either window
+# I have no idea yet why using a MA window between 237-247 is so bad.
 
 
 
 
 
 # todo:
-# create buy set amount each year and hold for comparison
 #
 # try RL bots and see how ML does
 # try GA and see how bots do
@@ -133,7 +133,7 @@ windows = range(smallest_window, largest_window)
 
 # for plotting
 profit = []         # cash on hand at end
-fees = []
+fees = []           # trading fees ( commissions )
 
 
 for w in windows:
@@ -148,7 +148,7 @@ for w in windows:
     #print(dja[['Date', 'DJIA','MA', 'OverUnder', 'CrossOver']])
 
 
-    # chose a time frame to run simulations
+    # set the time frame to run simulations
     dja['year'] = pd.DatetimeIndex(dja.Date).year
     dja = dja[dja.year >= start_year]
     dja = dja[dja.year <= end_year]
@@ -168,11 +168,10 @@ for w in windows:
         else:                           # sell
             trader.sell_fixed(row['SharePrice'])
         
-        last_price = row['SharePrice']
+        last_price = row['SharePrice']  # use to calculate buy and hold cash out amount
 
 
-
-    # cash out
+    # cash out moving average bot
     trader.cash_out(crossOverDays.iloc[-1]['SharePrice'])
 
 
@@ -219,7 +218,9 @@ for ix, row in one_trade_yr.iterrows():
 
 
 total_buy_and_hold = last_price * total_shares_buy_and_hold - commission
-print("Total $%.2lf for buy fixed amount each year " % total_buy_and_hold)
+print("Total $%.2lf if bought fixed amount ( 10k/yrs ~ $278 ) each year " % total_buy_and_hold)
+
+
 
 ##########################################################################
 # plot
@@ -229,10 +230,10 @@ returns = plt.plot(profit, c='b', linewidth=3, label="Return")
 fees = plt.plot(fees, c='r', linewidth=2, label="Fees")
 plt.xlabel("Days in moving average window")
 plt.ylabel("Total return $")
-plt.text(y=20, x=3, s="Buying a fixed amount each year and holding nets you %56K" )
+plt.legend(loc='upper left')
+plt.text(y=20, x=3, s="Buying fixed 10k/yrs each year and holding nets you $56K" )
+
+plt.savefig("MovingAverageTrading.png")
+
 plt.show()
-
-
-plt.savefig("MovingAverageTradingDays.png")
-
 
