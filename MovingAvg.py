@@ -120,14 +120,13 @@ stock_data["Year"] = pd.DatetimeIndex(stock_data['Date']).year
 stock_data['SharePrice'] = stock_data['DJIA'] / 1000.
 
 stock_data['Close'] = stock_data['DJIA']
-
 '''
+
 
 '''
 # read in NASDAQ
 stock_data = pd.read_csv('nasdaq.csv')
 stock_data = stock_data[['Date', 'Close']]
-
 
 # set share price to be 1/1000 of daily index
 stock_data["Year"] = pd.DatetimeIndex(stock_data['Date']).year
@@ -138,7 +137,6 @@ stock_data['SharePrice'] = stock_data['Close'] / 1000.
 # read in S&P
 stock_data = pd.read_csv('S&P.csv')
 stock_data = stock_data[['Date', 'Close']]
-
 
 # set share price to be 1/1000 of daily index
 stock_data["Year"] = pd.DatetimeIndex(stock_data['Date']).year
@@ -162,6 +160,8 @@ profit = []         # cash on hand at end
 fees = []           # trading fees ( commissions )
 window = []         # days in trading window
 
+
+max_net = 0.
 
 for w in windows:
     
@@ -205,12 +205,11 @@ for w in windows:
 
 
     
-
-    print("*************************************************************")
-    n_crossover_days = len(crossOverDays)
-    print("Final $ %.2lf using %d trading days as window:" % (trader.cash_on_hand, w))
-    print("Cross over days: %d, trading fees $%.2lf" % (n_crossover_days, n_crossover_days * commission))
-
+    if trader.cash_on_hand > max_net:
+        print("*************************************************************")
+        n_crossover_days = len(crossOverDays)
+        print("Final $ %.2lf using %d trading days as window; commissions $%.2lf" % (trader.cash_on_hand, w, n_crossover_days * commission))
+        max_net = trader.cash_on_hand
 
 
     # save for plotting
@@ -222,12 +221,6 @@ for w in windows:
 ########################################################################
 # end loop
 #######################################################################
-
-# top windows
-indexes = np.argmax(np.asarray(profit))
-print("Max: ", indexes)
-#for i in indexes:
-#    print("Top MA windows: %d days, %.2lf net" % (window[i], profit[i]))
 
 
 ######################################################################
