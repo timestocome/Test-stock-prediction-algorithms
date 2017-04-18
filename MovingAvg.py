@@ -3,33 +3,30 @@
 
 
 # test buy when MA crosses under share price, sell when share price over MA
-# 
 
-# First run, brute force through all moving average windows
+
+# Simple test brute force through all moving average windows
 # using fixed dollar amounts to buy and sell.
 #
 # Buying and selling on MA won't work unless you invest at least $500, otherwise commissions
 # eat up all of your profit
 #
-# At $500+/trade you can make money but the longer your window the more you make so buy and hold is
-# still the best strategy.
-# Purchasing a fixed amount of shares each year on the first trading day and holding earns about 
-# double what buying and selling the MA does
-# MA best window is 186 days
+#
+# Using $500/purchase and sell at each moving average crossover
+# DJIA
+# Buy a set amount 1 trading day of each year earns about $56k
+# Best buy/sell on moving average is 186 day window and earns $23k
 # Worst were below 60 and between 237-247 ??? I plotted commissions, there's not a big jump at either window
 # I have no idea yet why using a MA window between 237-247 is so bad.
-
-
-
-
-
-# todo:
 #
-# try RL bots and see how ML does
-# try GA and see how bots do
+# NASDAQ
+# Buy a set amount the first trading day of the year earns about $3k
+# Using an 80-90 moving average nets you about $7K
 #
-# plot best worst strategies 
-# print monthly, yearly gains and losses for best and worst strategies
+# S&P 500
+# Set amount each year yeilds about $3k
+# MA 224-250 yeilds $7k
+
 
 
 
@@ -111,6 +108,7 @@ class bot():
 
 ##########################################################################
 # data is from  https://www.measuringworth.com/datasets/DJA/index.php
+# and http://finance.yahoo.com 
 ##########################################################################
 '''
 # read in DJA
@@ -125,8 +123,7 @@ stock_data['Close'] = stock_data['DJIA']
 
 '''
 
-
-
+'''
 # read in NASDAQ
 stock_data = pd.read_csv('nasdaq.csv')
 stock_data = stock_data[['Date', 'Close']]
@@ -135,7 +132,17 @@ stock_data = stock_data[['Date', 'Close']]
 # set share price to be 1/1000 of daily index
 stock_data["Year"] = pd.DatetimeIndex(stock_data['Date']).year
 stock_data['SharePrice'] = stock_data['Close'] / 1000.
+'''
 
+
+# read in S&P
+stock_data = pd.read_csv('S&P.csv')
+stock_data = stock_data[['Date', 'Close']]
+
+
+# set share price to be 1/1000 of daily index
+stock_data["Year"] = pd.DatetimeIndex(stock_data['Date']).year
+stock_data['SharePrice'] = stock_data['Close'] / 1000.
 
 
 
@@ -250,7 +257,7 @@ print("Total $%.2lf if bought fixed amount ( 10k/yrs ~ $278 ) each year " % tota
 ##########################################################################
 # plot
 ##########################################################################
-plt.title("Trade on NASDAQ Moving Average 1980-2016, Start with 10k seed money, $500 trades")
+plt.title("Trade on S&P Moving Average 1980-2016, Start with 10k seed money, $500 trades")
 returns = plt.plot(profit, c='b', linewidth=3, label="Return")
 fees = plt.plot(fees, c='r', linewidth=2, label="Fees")
 plt.xlabel("Days in moving average window")
