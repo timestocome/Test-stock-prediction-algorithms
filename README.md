@@ -6,15 +6,17 @@ Moving Average code and more information has been relocated to here: https://git
 
 <b>To do:</b>
 
+http://faculty.chicagobooth.edu/workshops/finance/pdf/Shleiferbff.pdf (Bubbles for FAMA)
+
 Try some GA trading bots ( https://github.com/openai/evolution-strategies-starter )
 
-https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-xgboost/amp/
+https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-xgboost/amp/ (X-Gradient Boosting for series predictions )
 
-http://surface.syr.edu/cgi/viewcontent.cgi?article=1056&context=eecs_techreports
+http://surface.syr.edu/cgi/viewcontent.cgi?article=1056&context=eecs_techreports (Predict sunspot cycles with RNN)
 
-http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-series.html
+http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-series.html ( How Google does series predictions )
 
-https://research.fb.com/prophet-forecasting-at-scale/
+https://research.fb.com/prophet-forecasting-at-scale/ ( FB open source Prophet for series prediction )
 
-https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series
+https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series ( finding anomalies in time series )
 
