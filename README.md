@@ -29,6 +29,8 @@ Try predicting future prices using regression on several length MA and combine t
 
 Predict tipping points more accurately
 
+Predict future values (3, 6, 9, 12 months) based on current information
+
 
 <b>Misc Reading:</b>
 
