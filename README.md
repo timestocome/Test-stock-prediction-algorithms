@@ -19,6 +19,8 @@ https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection
 
 <b>Misc Reading:</b>
 
+http://www.e-m-h.org/Fama70.pdf ( Efficient Market Hypothesis )
+
 http://faculty.chicagobooth.edu/workshops/finance/pdf/Shleiferbff.pdf (Bubbles for FAMA)
 
 https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf (Predictive analysis of financial time series)
