@@ -21,6 +21,14 @@ https://research.fb.com/prophet-forecasting-at-scale/ ( FB open source Prophet f
 
 https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series ( finding anomalies in time series )
 
+Book value vs rumor vs PE buying, which is better?
+
+Does trailing vs future PE tell anything useful?
+
+Try predicting future prices using several length MA and combine them
+
+Predict tipping points more accurately
+
 
 <b>Misc Reading:</b>
 
