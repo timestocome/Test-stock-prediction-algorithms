@@ -6,7 +6,7 @@ Moving Average code and more information has been relocated to here: https://git
 
 <b>To do:</b>
 
-Try some GA trading bots ( https://github.com/openai/evolution-strategies-starter )
+https://github.com/openai/evolution-strategies-starter ( Try some GA trading bots with and without NN )
 
 https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-xgboost/amp/ (X-Gradient Boosting for series predictions )
 
