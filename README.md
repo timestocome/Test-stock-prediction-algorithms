@@ -1,8 +1,12 @@
 # StockPredictions
-Use classic tricks, deep learning, genetic programming and other methods to predict stock and market movements
-Both successful and unsuccessful experiments will be posted. 
+Use classic tricks, neural networks, deep learning, genetic programming and other methods to predict stock and market movements.
 
-Moving Average code and more information has been relocated to here: https://github.com/timestocome/StockMarketMovingAverage
+Both successful and unsuccessful experiments will be posted. This section is things that are currently being explored. Completed projects will be wrapped up and moved to another repository to keep things simple.
+
+<b>Completed:</b>
+
+https://github.com/timestocome/StockMarketMovingAverage ( Moving average buy/sell under/over vs buy and hold )
+
 
 <b>To do:</b>
 
@@ -16,6 +20,7 @@ http://surface.syr.edu/cgi/viewcontent.cgi?article=1056&context=eecs_techreports
 https://research.fb.com/prophet-forecasting-at-scale/ ( FB open source Prophet for series prediction )
 
 https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series ( finding anomalies in time series )
+
 
 <b>Misc Reading:</b>
 
