@@ -31,3 +31,15 @@ http://faculty.chicagobooth.edu/workshops/finance/pdf/Shleiferbff.pdf (Bubbles f
 https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf (Predictive analysis of financial time series)
 
 http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-series.html ( How Google does series predictions )
+
+
+<b>Data sources:</b>
+
+http://finance.yahoo.com/
+
+https://fred.stlouisfed.org/
+
+https://www.measuringworth.com/datasets/DJA/index.php
+
+https://www.quandl.com/
+
