@@ -25,7 +25,7 @@ Book value vs rumor vs PE buying, which is better?
 
 Does trailing vs future PE tell anything useful?
 
-Try predicting future prices using several length MA and combine them
+Try predicting future prices using regression on several length MA and combine them
 
 Predict tipping points more accurately
 
