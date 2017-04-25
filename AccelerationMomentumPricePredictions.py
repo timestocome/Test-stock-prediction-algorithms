@@ -1,29 +1,15 @@
 # http://github.com/timestocome
 
 
-# First pass using velocity, momentum and acceleration to predict prices
-# Accuracy seems way too good to be true. First guess is that because
-# data is randomized test data falls inside of training windows - need to
-# combine models then retest on data outside training window.
+# Attempt to use velocity, acceleration, momentum
+# to predict prices 1 week, month, quarter into the future
+# test date is 1/9/2017 using data from 1 week, month and quarter ago
+# score seems insanely too good to be true. 
 
-
-# to do
-# combine daily, weekly, monthly, quartly models to get better predictions
-# more testing --- accuracy seems suspiciously high
-# need to take 2017 and calculate velocity, momentum and acceleration and 
-# run through predictions and test against models trained on earlier data
-#
-# save each model d, w, m, q for each index
-# combine them so can enter a date in 2017 and index 
-# to obtain price for that date from combined models 
 
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt 
-import os
-import math
-
 
 from sklearn.model_selection import train_test_split, cross_val_predict
 from sklearn.linear_model import LinearRegression
@@ -45,7 +31,7 @@ one_quarter = 63
 
 
 # data to use in training and predictions
-features = ['Volume', 'dx', 'd2x',  'momentum']
+features = ['Close', 'Volume', 'dx', 'd2x',  'momentum'] # today's close
 
 
 
@@ -76,9 +62,6 @@ def read_data(file_name):
     train_stock = stock.loc[stock.index > '01-01-1985']
     train_stock = stock.loc[stock.index < '12-31-2016']
 
-
-    # add row counter to stock
-    #stock['row'] = range(0, len(stock))
 
     return stock, train_stock, test_stock
 
