@@ -57,12 +57,13 @@ def read_data(file_name):
     stock = pd.read_csv(file_name, parse_dates=True, index_col=0)        # 31747 days of data 
     n_samples = len(stock)
 
-    # want to predict future prices
+    
+    # want to predict future prices, these are the target values using in training the model
     stock['next_day'] = stock['Close'].shift(one_day)
     stock['next_week'] = stock['Close'].shift(one_week)
     stock['next_month'] = stock['Close'].shift(one_month)
     stock['next_quarter'] = stock['Close'].shift(one_quarter)
-
+    
 
     # adjust momentum (Close * dx * dx ) to be in range of other values
     stock['momentum'] = stock['momentum'] **(1./3.)
@@ -76,7 +77,7 @@ def read_data(file_name):
 
 
     # add row counter to stock
-    stock['row'] = range(0, len(stock))
+    #stock['row'] = range(0, len(stock))
 
     return stock, train_stock, test_stock
 
@@ -167,7 +168,9 @@ print("Test scores:")
 
 # get a row number
 dj_actual = dj_stock.loc[dj_stock.index == '01-09-2017']
-row = dj_actual['row']
+row = dj_stock.index.get_loc('01-09-2017')
+
+
 
 # Run data through prediction models
 predict_d = dj_day.predict((dj_stock.ix[row + one_day])[features])
@@ -188,7 +191,8 @@ print("--------------------------------------------")
 
 # get a row number
 sp_actual = sp_stock.loc[sp_stock.index == '01-09-2017']
-row = sp_actual['row']
+row = sp_stock.index.get_loc('01-09-2017')
+
 
 # Run data through prediction models
 predict_d = sp_day.predict((sp_stock.ix[row + one_day])[features])
@@ -196,6 +200,7 @@ predict_w = sp_week.predict((sp_stock.ix[row + one_week])[features])
 predict_m = sp_month.predict((sp_stock.ix[row + one_month])[features])
 predict_q = sp_quarter.predict((sp_stock.ix[row + one_quarter])[features])
 predictions = [predict_d[0], predict_m[0], predict_q[0], predict_w[0]]
+
 
 
 print("S&P Actual Jan 9th, 2017: ", sp_actual['Close'])
@@ -207,7 +212,8 @@ print("--------------------------------------------")
 
 # get a row number
 r_actual = r_stock.loc[r_stock.index == '01-09-2017']
-row = r_actual['row']
+row = r_stock.index.get_loc('01-09-2017')
+
 
 # Run data through prediction models
 predict_d = r_day.predict((r_stock.ix[row + one_day])[features])
@@ -227,7 +233,8 @@ print("--------------------------------------------")
 
 # get a row number
 n_actual = n_stock.loc[n_stock.index == '01-09-2017']
-row = n_actual['row']
+row = n_stock.index.get_loc('01-09-2017')
+
 
 # Run data through prediction models
 predict_d = n_day.predict((dj_stock.ix[row + one_day])[features])
@@ -237,7 +244,7 @@ predict_q = n_quarter.predict((dj_stock.ix[row + one_quarter])[features])
 
 predictions = [predict_d[0], predict_m[0], predict_q[0], predict_w[0]]
 
-print("NASDAQ Actual Jan 9th, 2017: ", nx_actual['Close'])
+print("NASDAQ Actual Jan 9th, 2017: ", n_actual['Close'])
 print("Std: ", np.std(predictions))
 print("Mean: ", np.mean(predictions))
 print("Predictions: ", predictions)
