@@ -53,7 +53,7 @@ def read_data(file_name):
     # calculate velocity, acceleration and momentum
     stock['dx'] = stock['Close'] - stock['Close'].shift(1)
     stock['d2x'] = stock['dx'] - stock['dx'].shift(1)
-    stock['momentum'] = ((stock['Close'] * stock['dx'] * stock['dx']) **(1./3.))
+    stock['momentum'] = stock['Close'] * stock['dx']
 
 
     # split data set into training and holdout

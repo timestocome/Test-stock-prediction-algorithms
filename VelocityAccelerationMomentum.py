@@ -49,7 +49,7 @@ def movement(file_name, dailyPrice):
     stock['d2x_ma'] = stock['d2x'].rolling(window=w).mean()
 
     # momentum of price
-    stock['momentum'] = ((stock[dailyPrice] * stock['dx'] * stock['dx']) **1./3.).rolling(window=w).mean()
+    stock['momentum'] = (stock[dailyPrice] * stock['dx'] ).rolling(window=w).mean()
 
 
     # write to disk
