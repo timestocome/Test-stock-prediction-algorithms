@@ -42,6 +42,7 @@ https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian
 
 http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-series.html ( How Google does series predictions )
 
+http://shop.oreilly.com/product/0636920032441.do (O'Reilly Python for Finance )
 
 <b>Data sources:</b>
 
