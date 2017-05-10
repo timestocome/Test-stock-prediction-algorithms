@@ -7,6 +7,8 @@ Both successful and unsuccessful experiments will be posted. This section is thi
 
 https://github.com/timestocome/StockMarketMovingAverage ( Moving average buy/sell under/over vs buy and hold )
 
+https://github.com/timestocome/StockMarketData Moved data and cleaning programs over here
+
 
 <b>To do:</b>
 
