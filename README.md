@@ -40,7 +40,7 @@ http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-ser
 
 http://shop.oreilly.com/product/0636920032441.do (O'Reilly Python for Finance, meh )
 
-<b> to read </b>
+<b>To read </b>
 
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf (An empirical analysis of algorithmic trading on financial markets )
 
