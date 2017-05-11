@@ -16,9 +16,6 @@ https://github.com/openai/evolution-strategies-starter ( Try some GA trading bot
 
 http://surface.syr.edu/cgi/viewcontent.cgi?article=1056&context=eecs_techreports (Predict sunspot cycles with RNN)
 
-https://research.fb.com/prophet-forecasting-at-scale/ ( FB open source Prophet for series prediction )
-
-https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series ( finding anomalies in time series )
 
 Book value vs rumor vs PE buying, which is better?
 
@@ -28,7 +25,7 @@ Try predicting future prices using regression on several length MA and combine t
 
 Predict tipping points more accurately
 
-Predict future values (3, 6, 9, 12 months) based on current information
+Predict future values (3, 6, 9, 12 months) based on current information using deep learning and other techniques
 
 
 <b>Misc Reading:</b>
@@ -67,6 +64,9 @@ http://www.unofficialgoogledatascience.com/2017/03/attributing-deep-networks-pre
 
 https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-xgboost/amp/ (X-Gradient Boosting for series predictions )
 
+https://research.fb.com/prophet-forecasting-at-scale/ ( FB open source Prophet for series prediction )
+
+https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series ( finding anomalies in time series )
 
 <b>Data sources:</b>
 
