@@ -28,13 +28,11 @@ Predict tipping points more accurately
 Predict future values (3, 6, 9, 12 months) based on current information using deep learning and other techniques
 
 
-<b>Misc Reading:</b>
+<b>Misc Reading:</b> 
 
 http://www.e-m-h.org/Fama70.pdf ( Efficient Market Hypothesis )
 
 http://faculty.chicagobooth.edu/workshops/finance/pdf/Shleiferbff.pdf (Bubbles for FAMA)
-
-https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf (Predictive analysis of financial time series)
 
 http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-series.html ( How Google does series predictions )
 
@@ -45,6 +43,10 @@ http://shop.oreilly.com/product/0636920032441.do (O'Reilly Python for Finance, m
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf (An empirical analysis of algorithmic trading on financial markets )
 
 Anomaly Detection: A Survey 2009 ACM 
+
+
+https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf (Predictive analysis of financial time series)
+
 
 https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf ( Predictive analysis of financial time series )
 
