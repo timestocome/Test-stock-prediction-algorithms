@@ -74,7 +74,3 @@ http://finance.yahoo.com/
 
 https://fred.stlouisfed.org/
 
-https://www.measuringworth.com/datasets/DJA/index.php
-
-https://www.quandl.com/
-
