@@ -3,7 +3,7 @@ Use classic tricks, neural networks, deep learning, genetic programming and othe
 
 Both successful and unsuccessful experiments will be posted. This section is things that are currently being explored. Completed projects will be wrapped up and moved to another repository to keep things simple.
 
-<b>Completed:</b>
+<b>Completed and spun off:</b>
 
 https://github.com/timestocome/StockMarketMovingAverage ( Moving average buy/sell under/over vs buy and hold )
 
