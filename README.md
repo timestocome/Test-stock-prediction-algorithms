@@ -10,11 +10,13 @@ https://github.com/timestocome/StockMarketMovingAverage ( Moving average buy/sel
 https://github.com/timestocome/StockMarketData Moved data and cleaning programs over here
 
 
-<b>To code and test on financial data:</b>
+<b>Looks promising enough to test on financial data:</b>
 
 https://github.com/openai/evolution-strategies-starter ( Try some GA trading bots with and without NN )
 
 http://surface.syr.edu/cgi/viewcontent.cgi?article=1056&context=eecs_techreports (Predict sunspot cycles with RNN)
+
+http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-models.html ( Time Series Analysis with Generalized Additive Models )
 
 
 Book value vs rumor vs PE buying, which is better?
@@ -60,7 +62,7 @@ http://quant-econ.net/_static/pdfs/py-quant-econ.pdf ( QUANTITATIVE ECONOMICS wi
 
 https://research.google.com/pubs/pub41854.html ( INFERRING CAUSAL IMPACT USING BAYESIAN STRUCTURAL TIME-SERIES MODELS )
 
-http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-models.html ( Time Series Analysis with Generalized Additive Models )
+
 
 http://www.unofficialgoogledatascience.com/2017/03/attributing-deep-networks-prediction-to.html ( Attributing a deep network’s prediction to its input features )
 
