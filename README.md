@@ -10,7 +10,7 @@ https://github.com/timestocome/StockMarketMovingAverage ( Moving average buy/sel
 https://github.com/timestocome/StockMarketData Moved data and cleaning programs over here
 
 
-<b>To do:</b>
+<b>To code and test on financial data:</b>
 
 https://github.com/openai/evolution-strategies-starter ( Try some GA trading bots with and without NN )
 
