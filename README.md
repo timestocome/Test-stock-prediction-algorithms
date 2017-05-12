@@ -19,17 +19,6 @@ http://surface.syr.edu/cgi/viewcontent.cgi?article=1056&context=eecs_techreports
 http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-models.html ( Time Series Analysis with Generalized Additive Models )
 
 
-Book value vs rumor vs PE buying, which is better?
-
-Does trailing vs future PE tell anything useful?
-
-Try predicting future prices using regression on several length MA and combine them
-
-Predict tipping points more accurately
-
-Predict future values (3, 6, 9, 12 months) based on current information using deep learning and other techniques
-
-
 <b>Misc Reading:</b> 
 
 http://www.e-m-h.org/Fama70.pdf ( Efficient Market Hypothesis )
