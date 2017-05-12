@@ -18,6 +18,8 @@ http://surface.syr.edu/cgi/viewcontent.cgi?article=1056&context=eecs_techreports
 
 http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-models.html ( Time Series Analysis with Generalized Additive Models )
 
+Anomaly Detection: A Survey 2009 ACM $$$$ ( excellent paper, I'm going to try several techniques it covers )
+
 
 <b>Misc Reading:</b> 
 
@@ -33,7 +35,6 @@ http://shop.oreilly.com/product/0636920032441.do (O'Reilly Python for Finance, m
 
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf (An empirical analysis of algorithmic trading on financial markets )
 
-Anomaly Detection: A Survey 2009 ACM $$$$
 
 
 https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf (Predictive analysis of financial time series)
