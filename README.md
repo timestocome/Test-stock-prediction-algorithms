@@ -9,7 +9,9 @@ https://github.com/timestocome/StockMarketMovingAverage ( Moving average buy/sel
 
 https://github.com/timestocome/StockMarketData Moved data and cleaning programs over here
 
+
 <b>Spun off, not yet fully finished:</b>
+
 https://github.com/timestocome/StockMarketClustering ( Various clustering techniques )
 
 
