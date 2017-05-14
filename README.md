@@ -12,6 +12,8 @@ https://github.com/timestocome/StockMarketData Moved data and cleaning programs 
 
 <b>Spun off, not yet fully finished:</b>
 
+Moved this off early as there is a clearly a predictive pattern I'll want to dig into futher and I'll likely create several scripts to tighten up the predictions.
+
 https://github.com/timestocome/StockMarketClustering ( Various clustering techniques )
 
 
