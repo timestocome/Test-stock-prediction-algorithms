@@ -36,24 +36,23 @@ http://faculty.chicagobooth.edu/workshops/finance/pdf/Shleiferbff.pdf (Bubbles f
 
 http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-series.html ( How Google does series predictions )
 
-http://shop.oreilly.com/product/0636920032441.do (O'Reilly Python for Finance, meh )
+http://shop.oreilly.com/product/0636920032441.do (O'Reilly Python for Finance, meh mostly a plug for author's library )
 
 <b>To read:</b>
 
-http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf (An empirical analysis of algorithmic trading on financial markets )
+http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf ( An empirical analysis of algorithmic trading on financial markets )
 
 
 https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf ( Predictive analysis of financial time series )
 
-http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf ( An empirical analysis of algorithmic trading on financial markets ) 
 
 http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/j.cumming.pdf ( An Investigation into the Use of Reinforcement Learning Techniques within the Algorithmic Trading Domain )
 
-http://www.wiley.com/WileyCDA/WileyTitle/productCd-111909657X.html ( THE ULTIMATE ALGORITHMIC TRADING SYSTEM TOOLBOX )
+http://www.wiley.com/WileyCDA/WileyTitle/productCd-111909657X.html ( The ultimate algorithmic trading system toolbox )
 
-http://quant-econ.net/_static/pdfs/py-quant-econ.pdf ( QUANTITATIVE ECONOMICS with Python )
+http://quant-econ.net/_static/pdfs/py-quant-econ.pdf ( Quantitative economics with Python ) 
 
-https://research.google.com/pubs/pub41854.html ( INFERRING CAUSAL IMPACT USING BAYESIAN STRUCTURAL TIME-SERIES MODELS )
+https://research.google.com/pubs/pub41854.html ( Inferring causal impact using bayesian structural time series models  )
 
 
 http://www.unofficialgoogledatascience.com/2017/03/attributing-deep-networks-prediction-to.html ( Attributing a deep network’s prediction to its input features )
