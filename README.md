@@ -64,7 +64,6 @@ https://research.fb.com/prophet-forecasting-at-scale/ ( FB open source Prophet f
 
 https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series ( finding anomalies in time series )
 
-http://blog.kaggle.com/2017/05/11/two-sigma-financial-modeling-code-competition-5th-place-winners-interview-team-best-fitting-bestfitting-zero-circlecircle/ (Kaggle Blog, Two Sigma Financial Modeling )
 
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 (Let's evolve a neural network )
 
