@@ -16,6 +16,8 @@ Moved this off early as there is a clearly a predictive pattern I'll want to dig
 
 https://github.com/timestocome/StockMarketClustering ( Various clustering techniques )
 
+https://github.com/timestocome/StockMarketLinearRegression ( Experiments in linear regression )
+
 
 <b>Looks promising enough to test on financial data:</b>
 
