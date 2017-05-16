@@ -43,12 +43,14 @@ def fourierEx(x, n_predict, harmonics):
 
 
 
-def plot_fft_djia():
+
+
+def plot_fft(f):
 
     # pull out hold out data 
     x = data.loc[data.index < '06-30-2016']     # pull out 6 months data to check prediction
-    x = x['DJIA']
-    z = data['DJIA']
+    x = x[f]
+    z = data[f]
     
     # match this to hold out data count to properly line up plot lines
     n_predict = 126         # number of data points to predict (5 week, 21 month, 63 quarter, 126 half year)
@@ -66,9 +68,9 @@ def plot_fft_djia():
 
         extrapolation = fourierEx(x, n_predict, h)
 
-        axs[i].set_title("DJIA FFT projection, harmonics %d" %(h))
+        axs[i].set_title("%s FFT projection, harmonics %d" %(f, h))
         axs[i].plot(np.arange(len(extrapolation)), extrapolation, 'r', label='extrapolation', linewidth=2)
-        axs[i].plot(np.arange(len(z)), z, 'b', label='DJIA', linewidth=2)
+        axs[i].plot(np.arange(len(z)), z, 'b', label=f, linewidth=2)
         axs[i].plot(np.arange(len(x)), x, 'darkgray', label='training data', linewidth=1)
 
         i += 1
@@ -76,10 +78,11 @@ def plot_fft_djia():
 
     
     plt.legend(loc=0)
-    plt.savefig("FFT_DJIA.png")
+    plot_file = "FFT %s.png" %(f)
+    plt.savefig("FFT_Nasdaq.png")
     plt.show()
 
 
 
-
-plot_fft_djia()
+for f in features:
+    plot_fft(f)
