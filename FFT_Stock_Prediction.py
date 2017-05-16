@@ -1,6 +1,7 @@
 # http://github.com/timestocome
 
 # Try using Fourier Series to predict market indexes
+# 3 harmonics seems to do a good job of predicting next quarter
 
 
 import pandas as pd 
@@ -45,27 +46,35 @@ def fourierEx(x, n_predict, harmonics):
 def plot_fft_djia():
 
     # pull out hold out data 
-    x = data.loc[data.index < '06-30-16']
+    x = data.loc[data.index < '06-30-2016']     # pull out 6 months data to check prediction
     x = x['DJIA']
     z = data['DJIA']
     
-
-    n_predict = 252         # number of data points to predict
-
+    # match this to hold out data count to properly line up plot lines
+    n_predict = 126         # number of data points to predict (5 week, 21 month, 63 quarter, 126 half year)
 
     fig, axs = plt.subplots(nrows=6, ncols=2, figsize=(20,16))
     axs = axs.ravel()
-    for h in range(1, 13):
+    plt.setp(axs, xticks=np.arange(1, 7000, step=1300), xticklabels=np.arange(1990, 2016, step=5))
+
+
+    i = 0
+    
+    
+    
+    for h in range(1,13):
 
         extrapolation = fourierEx(x, n_predict, h)
 
-        axs[h-1].set_title("DJIA FFT projection, harmonics %d" %(h))
-        axs[h-1].plot(np.arange(0, extrapolation.size), extrapolation, 'r', label='extrapolation', linewidth=2)
-        axs[h-1].plot(np.arange(0, len(z)), z, 'b', label='DJIA', linewidth=2)
-        axs[h-1].plot(np.arange(0, len(x)), x, 'g', label='training data', linewidth=1)
+        axs[i].set_title("DJIA FFT projection, harmonics %d" %(h))
+        axs[i].plot(np.arange(len(extrapolation)), extrapolation, 'r', label='extrapolation', linewidth=2)
+        axs[i].plot(np.arange(len(z)), z, 'b', label='DJIA', linewidth=2)
+        axs[i].plot(np.arange(len(x)), x, 'darkgray', label='training data', linewidth=1)
+
+        i += 1
 
 
-
+    
     plt.legend(loc=0)
     plt.savefig("FFT_DJIA.png")
     plt.show()
