@@ -25,7 +25,7 @@ http://surface.syr.edu/cgi/viewcontent.cgi?article=1056&context=eecs_techreports
 
 http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-models.html ( Time Series Analysis with Generalized Additive Models )
 
-Anomaly Detection: A Survey 2009 ACM $$$$ ( excellent paper, I'm going to try several techniques it covers )
+http://dl.acm.org/citation.cfm?id=1541882 (Anomaly Detection: A Survey 2009 ACM $$$$ ( excellent paper, I'm going to try several techniques it covers ))
 
 
 <b>Misc Reading:</b> 
