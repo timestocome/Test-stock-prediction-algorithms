@@ -38,6 +38,8 @@ http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-ser
 
 http://shop.oreilly.com/product/0636920032441.do (O'Reilly Python for Finance, meh mostly a plug for author's library )
 
+https://www.manning.com/books/machine-learning-with-tensorflow ( Meap Machine Learning with TensorFlow, excellent TensorFlow reference, not a good reference if you're looking to learn Machine Learning, I'm on my second pass, reworking all the example code with stock data, the stuff that shows promise is being loaded up here. I'll go deeper into all of them as time allows )
+
 <b>To read:</b>
 
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf ( An empirical analysis of algorithmic trading on financial markets )
