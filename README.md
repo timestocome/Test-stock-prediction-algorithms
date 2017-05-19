@@ -40,6 +40,8 @@ http://shop.oreilly.com/product/0636920032441.do (O'Reilly Python for Finance, m
 
 https://www.manning.com/books/machine-learning-with-tensorflow ( Meap Machine Learning with TensorFlow, excellent TensorFlow reference, not a good reference if you're looking to learn Machine Learning, I'm on my second pass, reworking all the example code with stock data, the stuff that shows promise is being loaded up here. I'll go deeper into all of them as time allows )
 
+
+
 <b>To read:</b>
 
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf ( An empirical analysis of algorithmic trading on financial markets )
@@ -67,6 +69,19 @@ https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection
 
 
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 (Let's evolve a neural network )
+
+
+- this week's reading - will drop the ones that aren't useful from the list after I read them all 
+
+http://www.cs.cmu.edu/~bdhingra/papers/stock_hmm.pdf ( Stock Market Prediction Using Hidden Markov Models )
+
+http://math.stanford.edu/~sarana/project/stats242.pdf ( Determining Stock Trend Using Hidden Markov Model )
+
+https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&paper_id=38 ( Stock Price Prediction using Hidden Markov Model )
+
+http://mleg.cse.sc.edu/edu/csce768/uploads/Main.ReadingList/HMM-stock.pdf (Stock Market Forcasting Using Hidden Markov Model: A New Approach )
+
+https://www.cs.sfu.ca/~anoop/students/rzhang/rzhang_msc_thesis.pdf ( Prediction of Financial Time Series with Hidden Markov Models )
 
 <b>Data sources:</b>
 
