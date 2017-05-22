@@ -101,79 +101,96 @@ n_bins = 40
 plt.suptitle("Returns for full bear/bull markets Jan 1990-Dec 2015")
 
 
-plt.subplot(6,2,1)
+plt.subplot(7,2,1)
 plt.title("Jan 90-Jul 90 Bull")
 plt.plot(bull1['returns'], color='green')
 plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
 
 
-plt.subplot(6,2,2)
+plt.subplot(7,2,2)
 plt.title("Jan 90-Jul 90 Bull")
 plt.hist(bull1['returns'], range=[-0.15, 0.15], bins=n_bins, color='green')
 median_return = bull1['returns'].median()
 l = plt.axvspan(median_return-0.001, median_return+0.001, color='yellow')
 
 
-plt.subplot(6,2,3)
+plt.subplot(7,2,3)
 plt.title("July90-Oct 90")
 plt.plot(bear1['returns'], color='red')
 plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
 
-plt.subplot(6,2,4)
+plt.subplot(7,2,4)
 plt.title("July 90-Oct 90")
 plt.hist(bear1['returns'], range=[-0.15, 0.15], bins=n_bins, color='red')
-median_return = bull1['returns'].median()
+median_return = bear1['returns'].median()
 l = plt.axvspan(median_return-0.001, median_return+0.001, color='yellow')
 
 
-plt.subplot(6,2,5)
+plt.subplot(7,2,5)
 plt.title("Oct 90-Jan 00")
 plt.plot(bull2['returns'], color='green')
 plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
 
-plt.subplot(6,2,6)
+plt.subplot(7,2,6)
 plt.title("Oct 90-Jan 00")
 plt.hist(bull2['returns'], range=[-0.15, 0.15], bins=n_bins, color='green')
-median_return = bull1['returns'].median()
+median_return = bull2['returns'].median()
 l = plt.axvspan(median_return-0.001, median_return+0.001, color='yellow')
 
 
-plt.subplot(6,2,7)
+plt.subplot(7,2,7)
 plt.title("Jan 00-Oct 02")
 plt.plot(bear2['returns'], color='red')
 plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
 
-plt.subplot(6,2,8)
+plt.subplot(7,2,8)
 plt.title("Jan 00-Oct 02")
 plt.hist(bear2['returns'], range=[-0.15, 0.15], bins=n_bins, color='red')
-median_return = bull1['returns'].median()
+median_return = bear2['returns'].median()
 l = plt.axvspan(median_return-0.001, median_return+0.001, color='yellow')
 
 
-plt.subplot(6,2,9)
+plt.subplot(7,2,9)
 plt.title("Oct 02-Oct 07")
 plt.plot(bull3['returns'], color='green')
 plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
 
 
-plt.subplot(6,2,10)
+plt.subplot(7,2,10)
 plt.title("Oct 02-Oct 07")
 plt.hist(bull3['returns'], range=[-0.15, 0.15], bins=n_bins, color='green')
-median_return = bull1['returns'].median()
+median_return = bull3['returns'].median()
 l = plt.axvspan(median_return-0.001, median_return+0.001, color='yellow')
 
 
-plt.subplot(6,2,11)
+plt.subplot(7,2,11)
 plt.title("Oct 07-Mar 09")
 plt.plot(bear3['returns'], color='red')
 plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
 
 
-plt.subplot(6,2,12)
+plt.subplot(7,2,12)
 plt.title("Oct 07-Mar 09")
 plt.hist(bear3['returns'], range=[-0.15, 0.15], bins=n_bins, color='red')
-median_return = bull1['returns'].median()
+median_return = bear3['returns'].median()
 l = plt.axvspan(median_return-0.001, median_return+0.001, color='yellow')
+
+
+plt.subplot(7,2,13)
+plt.title("Mar 09-Dec 15")
+plt.plot(bull4['returns'], color='green')
+plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
+
+
+plt.subplot(7,2,14)
+plt.title("Mar 09-Dec 15")
+plt.hist(bull4['returns'], range=[-0.15, 0.15], bins=n_bins, color='green')
+median_return = bull4['returns'].median()
+l = plt.axvspan(median_return-0.001, median_return+0.001, color='yellow')
+
+
+
+
 
 
 plt.savefig("RecentBullBear.png")
