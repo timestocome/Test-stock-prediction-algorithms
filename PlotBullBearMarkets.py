@@ -98,7 +98,7 @@ bull4 = data.loc[data.index >= bull4_start]
 ###################################################################
 plt.figure(figsize=(16,16))
 n_bins = 40
-plt.suptitle("Returns for full bear/bull markets Jan 1990-Dec 2015")
+plt.suptitle("Returns for bear/bull markets Jan 1990-Dec 2015")
 
 
 plt.subplot(7,2,1)
@@ -203,9 +203,31 @@ median_return = bull4['returns'].median()
 l = plt.axvspan(median_return-0.001, median_return+0.001, color='yellow')
 
 
-
-
-
-
 plt.savefig("RecentBullBear.png")
 plt.show()
+
+
+#################################################################
+# stats
+###############################################################
+plt.figure(figsize=(12,12))
+plt.subplot(2,1,1)
+plt.title('Bull markets monthly returns')
+plt.plot(bull1['returns'].resample('M').mean())
+plt.plot(bull2['returns'].resample('M').mean())
+plt.plot(bull3['returns'].resample('M').mean())
+plt.plot(bull4['returns'].resample('M').mean())
+plt.grid(True)
+plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
+
+
+plt.subplot(2,1,2)
+plt.title('Bear markets monthly returns')
+plt.plot(bear1['returns'].resample('M').mean())
+plt.plot(bear2['returns'].resample('M').mean())
+plt.plot(bear3['returns'].resample('M').mean())
+plt.grid(True)
+plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
+
+plt.show()
+
