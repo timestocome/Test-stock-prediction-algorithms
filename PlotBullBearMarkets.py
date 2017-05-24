@@ -212,11 +212,17 @@ plt.show()
 ###############################################################
 plt.figure(figsize=(12,12))
 plt.subplot(2,1,1)
-plt.title('Bull markets monthly returns')
+plt.title('Bull markets monthly returns, variance')
 plt.plot(bull1['returns'].resample('M').mean())
 plt.plot(bull2['returns'].resample('M').mean())
 plt.plot(bull3['returns'].resample('M').mean())
 plt.plot(bull4['returns'].resample('M').mean())
+plt.plot(bull1['returns'].resample('M').var())
+plt.plot(bull2['returns'].resample('M').var())
+plt.plot(bull3['returns'].resample('M').var())
+plt.plot(bull4['returns'].resample('M').var())
+
+
 plt.grid(True)
 plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
 
@@ -226,6 +232,9 @@ plt.title('Bear markets monthly returns')
 plt.plot(bear1['returns'].resample('M').mean())
 plt.plot(bear2['returns'].resample('M').mean())
 plt.plot(bear3['returns'].resample('M').mean())
+plt.plot(bear1['returns'].resample('M').var())
+plt.plot(bear2['returns'].resample('M').var())
+plt.plot(bear3['returns'].resample('M').var())
 plt.grid(True)
 plt.xlim(pd.to_datetime('01-01-1990'), pd.to_datetime('12-31-2016'))
 
