@@ -76,6 +76,7 @@ https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algo
 
 
 <b>Websites that look useful</b>
+
 https://www.wilmott.com/ Wilmott, Serving the qualitative finance community
 
 
