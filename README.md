@@ -42,6 +42,9 @@ http://shop.oreilly.com/product/0636920032441.do (O'Reilly Python for Finance, m
 
 https://www.manning.com/books/machine-learning-with-tensorflow ( Meap Machine Learning with TensorFlow, excellent TensorFlow reference, not a good reference if you're looking to learn Machine Learning, I'm on my second pass, reworking all the example code with stock data, the stuff that shows promise is being loaded up here. I'll go deeper into all of them as time allows )
 
+https://www.amazon.com/gp/product/B01AFXZ2F4/ (Everybody Lies, Big Data, New Data, and What the Internet can tell us about who we really are)
+
+https://www.amazon.com/gp/product/B06XDWV2Z2 (The Money Formula: Dodgy Finance, Pseudo Science, and How Mathematicians Took Over the Markets)
 
 
 <b>To read:</b>
