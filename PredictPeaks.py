@@ -37,15 +37,6 @@ data['logReturnsRussell'] = data['logRussell'] - data['logRussell'].shift(1)
 # remove nan row from target creation
 data = data.dropna()
 
-'''
-bins = [-0.16, -0.14, -0.12, -0.10, -0.08, -0.06, -0.04,  -0.02, 0.0, 0.02, 0.04, 0.06, 0.07, 0.08, 0.10, 0.12, 0.14, 0.16]
-def plot_histogram(d):
-    global year
-    n, b, _ = plt.hist(d, bins=bins)
-    return (n, b)
-h_plots = data['logReturnsNASDAQ'].groupby([data.index.year]).apply(plot_histogram)
-
-'''
 
 yr_sum = data.rolling(window=252, center=True).sum()['logReturnsNASDAQ']
 yr_std = data.rolling(window=252, center=True).std()['logReturnsNASDAQ']
@@ -59,7 +50,8 @@ plt.plot(data['logReturnsNASDAQ'], label='Log Returns')
 plt.plot(yr_sum, label='Yearly sum')
 plt.plot(yr_std * 100., label='Yearly std')
 plt.plot(yr_median, label='Yearly median')
-plt.plot(yr_kurtosis + 5, label='Yearly kurtosis')
+plt.plot(yr_kurtosis + 2, label='Yearly kurtosis')
+plt.title("Predict Nasdaq index inflection points using change std")
 
 plt.legend(loc='best')
 
