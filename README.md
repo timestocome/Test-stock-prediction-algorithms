@@ -23,7 +23,8 @@ https://fred.stlouisfed.org/
 https://github.com/timestocome/StockMarketMovingAverage  Moving average buy/sell under/over vs buy and hold 
 
 
-<b>Completed but not useful:</b> if it was this easy all statisticians would be rich. Still it's worth going through because sometimes faint signals can be found and amplified or combined with other faint signals to give useful information.
+<b>Completed but not useful:</b>
+If it was this easy all statisticians would be rich. Still it's worth going through because sometimes faint signals can be found and amplified or combined with other faint signals to give useful information.
 
 https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&paper_id=38  Stock Price Prediction using Hidden Markov Model --- meh, you have to feed it all the information and it doesn't work very well
 
@@ -42,6 +43,7 @@ https://github.com/timestocome/StockMarketLinearRegression  Experiments in vario
 
 
 <b>Looks promising, not yet full finished:</b>
+
 The bull and bear markets have different histogram distributions. Daily changes in bull markets look like power distributions, bear markets are flatter, closer to guassians. The problem is a daily change needs lots of days to make a decent histogram. I need to think on this one more or try time slicing the data into smaller chunks and see if the effect is still there.
 
 
