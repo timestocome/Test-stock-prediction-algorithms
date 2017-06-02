@@ -101,7 +101,7 @@ https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
 
-<b>Websites that look useful</b>
+<b>Interesting Websites:</b>
 
 https://www.wilmott.com/ Wilmott, Serving the qualitative finance community
 
