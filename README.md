@@ -43,7 +43,7 @@ https://github.com/timestocome/StockMarketClustering  Various clustering techniq
 https://github.com/timestocome/StockMarketLinearRegression  Experiments in various regression techniques 
 
 
-<b>Looks promising, not yet full finished:</b>
+<b>Looks promising, not yet fully finished:</b>
 
 The bull and bear markets have different histogram distributions. Daily changes in bull markets look like power distributions, bear markets are flatter, closer to guassians. The problem is a daily change needs lots of days to make a decent histogram. I need to think on this one more or try time slicing the data into smaller chunks and see if the effect is still there.
 
