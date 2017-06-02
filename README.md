@@ -92,6 +92,8 @@ https://research.google.com/pubs/pub41854.html Inferring causal impact using bay
 
 http://www.unofficialgoogledatascience.com/2017/03/attributing-deep-networks-prediction-to.html Attributing a deep network’s prediction to its input features 
 
+I heard about a better way to attribute deep nets features to weights - take the same input and outputs and train a decision tree to match the deep network. As soon as I find the talk or paper, I'll add the link here.
+
 https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-xgboost/amp/ X-Gradient Boosting for series predictions 
 
 https://research.fb.com/prophet-forecasting-at-scale/  FB open source Prophet for series prediction 
