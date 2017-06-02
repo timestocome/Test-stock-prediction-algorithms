@@ -9,6 +9,15 @@ Both successful and unsuccessful experiments will be posted. This section is thi
 https://github.com/timestocome/StockMarketData 
 
 
+
+<b>Data sources:</b>
+
+http://finance.yahoo.com/
+
+https://fred.stlouisfed.org/
+
+
+
 <b>Completed and spun off in another repository:</b>
 
 https://github.com/timestocome/StockMarketMovingAverage  Moving average buy/sell under/over vs buy and hold 
@@ -90,11 +99,4 @@ https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algo
 https://www.wilmott.com/ Wilmott, Serving the qualitative finance community
 
 http://www.nber.org/ The National Bureau of Economic Research 
-
-
-<b>Data sources:</b>
-
-http://finance.yahoo.com/
-
-https://fred.stlouisfed.org/
 
