@@ -23,7 +23,7 @@ https://fred.stlouisfed.org/
 https://github.com/timestocome/StockMarketMovingAverage  Moving average buy/sell under/over vs buy and hold 
 
 
-<b>Completed but not useful:</b> if it was this easy all statisticians would be rich. Still it's worth going through because sometimes faint signals can be found and combined with other faint signals to give useful information.
+<b>Completed but not useful:</b> if it was this easy all statisticians would be rich. Still it's worth going through because sometimes faint signals can be found and amplified or combined with other faint signals to give useful information.
 
 https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&paper_id=38  Stock Price Prediction using Hidden Markov Model --- meh, you have to feed it all the information and it doesn't work very well
 
