@@ -3,11 +3,12 @@ Use classic tricks, neural networks, deep learning, genetic programming and othe
 
 Both successful and unsuccessful experiments will be posted. This section is things that are currently being explored. Completed projects will be wrapped up and moved to another repository to keep things simple.
 
-<b>Completed and spun off:</b>
+https://github.com/timestocome/StockMarketData Moved data and cleaning programs over here
+
+
+<b>Completed and spun off in another repository:</b>
 
 https://github.com/timestocome/StockMarketMovingAverage  Moving average buy/sell under/over vs buy and hold 
-
-https://github.com/timestocome/StockMarketData Moved data and cleaning programs over here
 
 
 <b>Completed but not useful:</b>
@@ -15,6 +16,8 @@ https://github.com/timestocome/StockMarketData Moved data and cleaning programs 
 https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&paper_id=38  Stock Price Prediction using Hidden Markov Model --- meh, you have to feed it all the information and it doesn't work very well
 
 http://www.investopedia.com/articles/financial-theory/09/bayesian-methods-financial-modeling.asp Bayesian predictions using gold, vix, 1 yrT, 10 yrB, Unemployment, trading volume, GDP
+
+https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&paper_id=38  Stock Price Prediction using Hidden Markov Model --- meh, you have to feed it all the information and it doesn't work very well
 
 
 <b>Spun off, not yet fully finished:</b>
@@ -25,8 +28,6 @@ https://github.com/timestocome/StockMarketLinearRegression  Experiments in vario
 
 
 <b>Looks promising enough to test on financial data:</b>
-
-https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&paper_id=38  Stock Price Prediction using Hidden Markov Model --- meh, you have to feed it all the information and it doesn't work very well
 
 https://github.com/openai/evolution-strategies-starter  Try some GA trading bots with and without NN 
 
