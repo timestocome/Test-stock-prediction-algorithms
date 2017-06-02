@@ -31,7 +31,7 @@ http://www.investopedia.com/articles/financial-theory/09/bayesian-methods-financ
 
 https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&paper_id=38  Stock Price Prediction using Hidden Markov Model --- meh, you have to feed it all the information and it doesn't work very well
 
-https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average ARIMA, ARMA but if it was this easy all statisticians would be rich. Still it's worth going through 
+https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average ARIMA, ARMA 
 
 
 <b>Spun off, not yet fully finished:</b>
