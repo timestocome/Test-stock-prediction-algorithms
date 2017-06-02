@@ -3,7 +3,9 @@ Use classic tricks, neural networks, deep learning, genetic programming and othe
 
 Both successful and unsuccessful experiments will be posted. This section is things that are currently being explored. Completed projects will be wrapped up and moved to another repository to keep things simple.
 
-https://github.com/timestocome/StockMarketData Moved data and cleaning programs over here
+
+<b>Data and the cleaning programs:</b>
+https://github.com/timestocome/StockMarketData 
 
 
 <b>Completed and spun off in another repository:</b>
