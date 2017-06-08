@@ -44,9 +44,10 @@ https://github.com/timestocome/StockMarketClustering  Various clustering techniq
 https://github.com/timestocome/StockMarketLinearRegression  Experiments in various regression techniques 
 
 
+https://github.com/timestocome/Sunspots The Sunspot stuff works amazingly well on sunspot predicting, I haven't had a chance to try it on a stock index yet. Sunspots follow a pretty regular, albeit noisy pattern, which may be why it works so well?
+
 <b>Looks promising, WIP:</b>
 
-https://github.com/timestocome/Sunspots The Sunspot stuff works amazingly well on sunspot predicting, I haven't had a chance to try it on a stock index yet. Sunspots follow a pretty regular, albeit noisy pattern, which may be why it works so well?
 
 The bull and bear markets have different histogram distributions. Daily changes in bull markets look like power distributions, bear markets are flatter, closer to guassians. The problem is a daily change needs lots of days to make a decent histogram. I need to think on this one more or try time slicing the data into smaller chunks and see if the effect is still there.
 
