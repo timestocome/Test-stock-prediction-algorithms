@@ -36,7 +36,10 @@ https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&pa
 https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average ARIMA, ARMA 
 
 
+
 <b>Spun off, not yet fully finished:</b>
+
+https://github.com/timestocome/Sunspots The Sunspot stuff works amazingly well on sunspot predicting, I haven't had a chance to try it on a stock index yet. Sunspots follow a pretty regular, albeit noisy pattern, which may be why it works so well?
 
 https://github.com/timestocome/StockMarketClustering  Various clustering techniques 
 
@@ -45,14 +48,15 @@ https://github.com/timestocome/StockMarketLinearRegression  Experiments in vario
 
 <b>Looks promising, not yet fully finished:</b>
 
+http://surface.syr.edu/cgi/viewcontent.cgi?article=1056&context=eecs_techreports Predict sunspot cycles with fully connected forward feed
+
+
 The bull and bear markets have different histogram distributions. Daily changes in bull markets look like power distributions, bear markets are flatter, closer to guassians. The problem is a daily change needs lots of days to make a decent histogram. I need to think on this one more or try time slicing the data into smaller chunks and see if the effect is still there.
 
 
 <b>Looks promising enough to test on financial data:</b>
 
 https://github.com/openai/evolution-strategies-starter  Try some GA trading bots with and without NN 
-
-http://surface.syr.edu/cgi/viewcontent.cgi?article=1056&context=eecs_techreports Predict sunspot cycles with RNN
 
 http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-models.html  Time Series Analysis with Generalized Additive Models 
 
