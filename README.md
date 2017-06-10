@@ -78,6 +78,7 @@ https://www.amazon.com/gp/product/B06XDWV2Z2 The Money Formula: Dodgy Finance, P
 
 https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series finding anomalies in time series 
 
+https://www.wired.com/2009/02/wp-quant/ Wired: The Formula that Killed Wall St
 
 <b>To read:</b>
 
