@@ -76,6 +76,8 @@ https://www.amazon.com/gp/product/B01AFXZ2F4/ Everybody Lies, Big Data, New Data
 
 https://www.amazon.com/gp/product/B06XDWV2Z2 The Money Formula: Dodgy Finance, Pseudo Science, and How Mathematicians Took Over the Markets
 
+https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series finding anomalies in time series 
+
 
 <b>To read:</b>
 
@@ -100,7 +102,7 @@ https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-x
 
 https://research.fb.com/prophet-forecasting-at-scale/  FB open source Prophet for series prediction 
 
-https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series finding anomalies in time series 
+
 
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
