@@ -52,7 +52,7 @@ https://github.com/timestocome/Sunspots The Sunspot stuff works amazingly well o
 The bull and bear markets have different histogram distributions. Daily changes in bull markets look like power distributions, bear markets are flatter, closer to guassians. The problem is a daily change needs lots of days to make a decent histogram. I need to think on this one more or try time slicing the data into smaller chunks and see if the effect is still there.
 
 
-<b>Todo list of things that look promising:</b>
+<b>Todo list of things that look promising enough to write code:</b>
 
 https://github.com/openai/evolution-strategies-starter  Try some GA trading bots with and without NN 
 
@@ -61,6 +61,9 @@ http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-model
 http://dl.acm.org/citation.cfm?id=1541882 (Anomaly Detection: A Survey 2009 ACM $$$$ --- excellent paper, I'm going to try several techniques it covers 
 
 http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The Theory of Speculation, L. Bachelier
+
+http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An empirical analysis of algorithmic trading on financial markets 
+
 
 
 <b>Misc Reading:</b> 
@@ -85,7 +88,6 @@ https://www.wired.com/2009/02/wp-quant/ Wired: The Formula that Killed Wall St
 
 <b>To read:</b>
 
-http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An empirical analysis of algorithmic trading on financial markets 
 
 https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf  Predictive analysis of financial time series 
 
@@ -107,8 +109,9 @@ https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-x
 https://research.fb.com/prophet-forecasting-at-scale/  FB open source Prophet for series prediction 
 
 
-
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
+
+http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Genetic Algorithms to Find Technical Trading Rules
 
 
 <b>Interesting Websites:</b>
