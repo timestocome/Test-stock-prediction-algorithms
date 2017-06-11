@@ -80,6 +80,8 @@ https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection
 
 https://www.wired.com/2009/02/wp-quant/ Wired: The Formula that Killed Wall St
 
+http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The Theory of Speculation, L. Bachelier
+
 <b>To read:</b>
 
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An empirical analysis of algorithmic trading on financial markets 
