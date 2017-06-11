@@ -60,6 +60,8 @@ http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-model
 
 http://dl.acm.org/citation.cfm?id=1541882 (Anomaly Detection: A Survey 2009 ACM $$$$ --- excellent paper, I'm going to try several techniques it covers 
 
+http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The Theory of Speculation, L. Bachelier
+
 
 <b>Misc Reading:</b> 
 
@@ -80,7 +82,6 @@ https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection
 
 https://www.wired.com/2009/02/wp-quant/ Wired: The Formula that Killed Wall St
 
-http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The Theory of Speculation, L. Bachelier
 
 <b>To read:</b>
 
