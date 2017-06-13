@@ -46,8 +46,6 @@ https://github.com/timestocome/StockMarketClustering  Various clustering techniq
 https://github.com/timestocome/StockMarketLinearRegression  Experiments in various regression techniques 
 
 
-https://github.com/timestocome/Sunspots The Sunspot stuff works amazingly well on sunspot predicting, I haven't had a chance to try it on a stock index yet. Sunspots follow a pretty regular, albeit noisy pattern, which may be why it works so well?
-
 <b>Looks promising, WIP:</b>
 
 
