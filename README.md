@@ -22,6 +22,8 @@ https://fred.stlouisfed.org/
 
 https://github.com/timestocome/StockMarketMovingAverage  Moving average buy/sell under/over vs buy and hold 
 
+https://github.com/timestocome/FullyConnectedForwardFeedNets Fully connected forward feed network to predict Nasdaq one month out. There's also the sunspot network it was based on there.
+
 
 <b>Completed but not useful:</b>
 
