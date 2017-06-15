@@ -16,6 +16,8 @@ http://finance.yahoo.com/
 
 https://fred.stlouisfed.org/
 
+https://stooq.com
+
 
 
 <b>Completed and spun off in another repository:</b>
