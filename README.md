@@ -47,6 +47,8 @@ https://github.com/timestocome/StockMarketClustering  Various clustering techniq
 
 https://github.com/timestocome/StockMarketLinearRegression  Experiments in various regression techniques 
 
+https://github.com/timestocome/Gold Investigate gold prices over time
+
 
 <b>Looks promising, WIP:</b>
 
