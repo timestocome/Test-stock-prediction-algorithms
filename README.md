@@ -64,7 +64,9 @@ http://www.e-m-h.org/Fama70.pdf  Efficient Market Hypothesis
 
 http://faculty.chicagobooth.edu/workshops/finance/pdf/Shleiferbff.pdf Bubbles for FAMA
 
-http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-series.html  How Google does series predictions 
+http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-series.html  How Google does series predictions
+
+http://www.econ.ucla.edu/workingpapers/wp239.pdf Let's Take the Con Out of Economics
 
 
 https://www.manning.com/books/machine-learning-with-tensorflow Meap Machine Learning with TensorFlow, excellent TensorFlow reference, not a good reference if you're looking to learn Machine Learning, I'm on my second pass, reworking all the example code with stock data, the stuff that shows promise is being loaded up here. I'll go deeper into all of them as time allows 
@@ -126,12 +128,10 @@ https://fred.stlouisfed.org/ FRED, Federal Reserve Bank of St Louis
 http://www.zerohedge.com/ ZeroHedge, mostly noise, occasionally something useful appears
 
 
-<b>When you think you've found the perfect system go back and re-read</b>
-
-http://www.econ.ucla.edu/workingpapers/wp239.pdf Let's Take the Con Out of Economics
 
 
-<b>Podcasts</b>
+
+<b>Podcasts:</b>
 
 http://www.podcastchart.com/podcasts/berkshire-hathaway-2017-annual-shareholders-meeting/episodes/berkshire-hathaway-vice-chairman-charlie-munger-speaks-with-yahoo-finance-editor-in-chief-andy-serwer 2017 Berkshire Hathaway Shareholder's Meeting
 
