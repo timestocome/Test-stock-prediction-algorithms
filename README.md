@@ -35,8 +35,6 @@ https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&pa
 
 http://www.investopedia.com/articles/financial-theory/09/bayesian-methods-financial-modeling.asp Bayesian predictions using gold, vix, 1 yrT, 10 yrB, Unemployment, trading volume, GDP. Everything is too entangled to produce new information
 
-https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&paper_id=38  Stock Price Prediction using Hidden Markov Model --- meh, you have to feed it all the information and it doesn't work very well
-
 https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average ARIMA, ARMA 
 
 
@@ -64,7 +62,7 @@ http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Ge
 
 http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-models.html  Time Series Analysis with Generalized Additive Models 
 
-http://dl.acm.org/citation.cfm?id=1541882 (Anomaly Detection: A Survey 2009 ACM $$$$ --- excellent paper, I'm going to try several techniques it covers 
+http://dl.acm.org/citation.cfm?id=1541882 Anomaly Detection: A Survey 2009 ACM 
 
 http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The Theory of Speculation, L. Bachelier
 
@@ -129,7 +127,6 @@ http://philipperemy.github.io/anomaly-detection/ Anomaly Detection in Time Serie
 
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An emprical analysis of algorithmic trading on financial markets
 
-http://quant-econ.net/_static/pdfs/py-quant-econ.pdf Quantitative economics with Python
 
 <b>Interesting Websites:</b>
 
