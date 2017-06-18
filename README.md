@@ -55,7 +55,6 @@ http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The 
 
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An empirical analysis of algorithmic trading on financial markets 
 
-http://www.chaos.gb.net/ClydeOsler1997.pdf Charting: Chaos Theory in Disguise
 
 
 <b>Recommended Reading:</b> 
