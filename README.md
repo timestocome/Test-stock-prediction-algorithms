@@ -57,6 +57,8 @@ http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf A
 
 http://philipperemy.github.io/anomaly-detection/ Anomaly Detection in Time Series using Auto Encoders
 
+https://eng.uber.com/neural-networks/ Engineering extreme event forecasting at Uber with RNNs
+
 
 <b>Recommended Reading:</b> 
 
