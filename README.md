@@ -43,7 +43,7 @@ https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average ARIMA, AR
 
 <b>Spun off, WIP:</b>
 
-https://github.com/timestocome/StockMarketClustering  Various clustering techniques 
+https://github.com/timestocome/StockMarketIndexClustering Try clustering on the indexes to look for outliers
 
 https://github.com/timestocome/StockMarketLinearRegression  Experiments in various regression techniques 
 
