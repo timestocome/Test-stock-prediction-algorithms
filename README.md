@@ -60,6 +60,8 @@ The bull and bear markets have different histogram distributions. Daily changes 
 
 https://github.com/openai/evolution-strategies-starter  Try some GA trading bots with and without NN 
 
+http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Genetic Algorithms to Find Technical Trading Rules
+
 http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-models.html  Time Series Analysis with Generalized Additive Models 
 
 http://dl.acm.org/citation.cfm?id=1541882 (Anomaly Detection: A Survey 2009 ACM $$$$ --- excellent paper, I'm going to try several techniques it covers 
