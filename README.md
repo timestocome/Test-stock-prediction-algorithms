@@ -92,6 +92,8 @@ https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection
 
 https://www.wired.com/2009/02/wp-quant/ Wired: The Formula that Killed Wall St
 
+http://onlinelibrary.wiley.com/doi/10.1111/j.1467-6419.2007.00519.x/abstract What do we know about the profitability of technical analysis
+
 
 <b>To read:</b>
 
