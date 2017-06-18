@@ -88,7 +88,7 @@ https://www.amazon.com/gp/product/B01AFXZ2F4/ Everybody Lies, Big Data, New Data
 
 https://www.amazon.com/gp/product/B06XDWV2Z2 The Money Formula: Dodgy Finance, Pseudo Science, and How Mathematicians Took Over the Markets
 
-https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series finding anomalies in time series 
+https://blog.twitter.com/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series Finding anomalies in time series 
 
 https://www.wired.com/2009/02/wp-quant/ Wired: The Formula that Killed Wall St
 
@@ -96,6 +96,8 @@ http://onlinelibrary.wiley.com/doi/10.1111/j.1467-6419.2007.00519.x/abstract Wha
 
 
 <b>To read:</b>
+
+https://is.muni.cz/th/422802/fi_b/bakalarka_final.pdf Prediction of Financial Markets Using Deep Learning
 
 
 https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf  Predictive analysis of financial time series 
@@ -121,7 +123,13 @@ https://research.fb.com/prophet-forecasting-at-scale/  FB open source Prophet fo
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
 
+http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
 
+http://philipperemy.github.io/anomaly-detection/ Anomaly Detection in Time Series using Auto Encoders
+
+http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An emprical analysis of algorithmic trading on financial markets
+
+http://quant-econ.net/_static/pdfs/py-quant-econ.pdf Quantitative economics with Python
 
 <b>Interesting Websites:</b>
 
