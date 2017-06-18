@@ -35,6 +35,8 @@ https://github.com/timestocome/StockMarketLinearRegression  Experiments in vario
 
 https://github.com/timestocome/Gold Investigate gold prices over time
 
+https://github.com/timestocome/StockMarketTimeSeriesAnomalies Stock market/time series anomalies
+
 
 
 
