@@ -25,9 +25,9 @@ https://github.com/timestocome/StockMarketData
 
 <b>Spun off in another repository:</b> 
 
-https://github.com/timestocome/StockMarketMovingAverage  Moving average buy/sell under/over vs buy and hold 
+https://github.com/timestocome/StockMarketMovingAverage  Moving average vs buy and hold 
 
-https://github.com/timestocome/FullyConnectedForwardFeedNets Fully connected forward feed network to predict Nasdaq
+https://github.com/timestocome/FullyConnectedForwardFeedNets Fully connected ff network to predict Nasdaq
 
 https://github.com/timestocome/StockMarketIndexClustering Try clustering on the indexes to look for outliers
 
