@@ -116,7 +116,7 @@ https://research.fb.com/prophet-forecasting-at-scale/  FB open source Prophet fo
 
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
-http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Genetic Algorithms to Find Technical Trading Rules
+
 
 
 <b>Interesting Websites:</b>
