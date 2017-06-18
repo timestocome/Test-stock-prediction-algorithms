@@ -117,7 +117,7 @@ http://philipperemy.github.io/anomaly-detection/ Anomaly Detection in Time Serie
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An emprical analysis of algorithmic trading on financial markets
 
 
-<b>Interesting Websites:</b>
+<b>Useful Websites:</b>
 
 https://www.wilmott.com/ Wilmott, Serving the qualitative finance community
 
