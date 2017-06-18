@@ -129,3 +129,15 @@ https://fred.stlouisfed.org/ FRED, Federal Reserve Bank of St Louis
 
 http://www.zerohedge.com/ ZeroHedge, mostly noise, occasionally something useful appears
 
+
+<b>When you think you've found the perfect system go back and re-read</b>
+
+http://www.econ.ucla.edu/workingpapers/wp239.pdf Let's Take the Con Out of Economics
+
+
+<b>Podcasts</b>
+
+http://www.podcastchart.com/podcasts/berkshire-hathaway-2017-annual-shareholders-meeting/episodes/berkshire-hathaway-vice-chairman-charlie-munger-speaks-with-yahoo-finance-editor-in-chief-andy-serwer 2017 Berkshire Hathaway Shareholder's Meeting
+
+
+
