@@ -3,6 +3,8 @@ Use classic tricks, neural networks, deep learning, genetic programming and othe
 
 Both successful and unsuccessful experiments will be posted. This section is things that are currently being explored. Completed projects will be wrapped up and moved to another repository to keep things simple.
 
+The main goal of this project is to learn more about time series analysis and prediction. The stock market just happens to have lots of complicated time series and available data
+
 
 <b>Data and the cleaning programs:</b>
 
