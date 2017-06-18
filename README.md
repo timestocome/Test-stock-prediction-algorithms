@@ -22,26 +22,12 @@ https://stooq.com
 
 
 
-<b>Completed and spun off in another repository:</b>
+<b>Spun off in another repository:</b> 
 
 https://github.com/timestocome/StockMarketMovingAverage  Moving average buy/sell under/over vs buy and hold 
 
 https://github.com/timestocome/FullyConnectedForwardFeedNets Fully connected forward feed network to predict Nasdaq one month out. There's also the sunspot network it was based on there.
 
-
-<b>Completed but not useful:</b>
-
-If it was this easy all statisticians would be rich. Still it's worth going through because sometimes faint signals can be found and amplified or combined with other faint signals to give useful information.
-
-https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=SILC2016&paper_id=38  Stock Price Prediction using Hidden Markov Model --- meh, you have to feed it all the information and it doesn't work very well
-
-http://www.investopedia.com/articles/financial-theory/09/bayesian-methods-financial-modeling.asp Bayesian predictions using gold, vix, 1 yrT, 10 yrB, Unemployment, trading volume, GDP. Everything is too entangled to produce new information
-
-https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average ARIMA, ARMA 
-
-
-
-<b>Spun off, WIP:</b>
 
 https://github.com/timestocome/StockMarketIndexClustering Try clustering on the indexes to look for outliers
 
@@ -50,10 +36,7 @@ https://github.com/timestocome/StockMarketLinearRegression  Experiments in vario
 https://github.com/timestocome/Gold Investigate gold prices over time
 
 
-<b>Looks promising, WIP:</b>
 
-
-The bull and bear markets have different histogram distributions. Daily changes in bull markets look like power distributions, bear markets are flatter, closer to guassians. The problem is a daily change needs lots of days to make a decent histogram. I need to think on this one more or try time slicing the data into smaller chunks and see if the effect is still there.
 
 
 <b>Todo list of things that look promising enough to write code:</b>
