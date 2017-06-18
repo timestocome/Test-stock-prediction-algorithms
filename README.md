@@ -6,11 +6,6 @@ Both successful and unsuccessful experiments will be posted. This section is thi
 The main goal of this project is to learn more about time series analysis and prediction. The stock market just happens to have lots of complicated time series and available data
 
 
-<b>Data and the cleaning programs:</b>
-
-https://github.com/timestocome/StockMarketData 
-
-
 
 <b>Data sources:</b>
 
@@ -22,12 +17,17 @@ https://stooq.com
 
 
 
+<b>Data and the cleaning programs:</b>
+
+https://github.com/timestocome/StockMarketData 
+
+
+
 <b>Spun off in another repository:</b> 
 
 https://github.com/timestocome/StockMarketMovingAverage  Moving average buy/sell under/over vs buy and hold 
 
-https://github.com/timestocome/FullyConnectedForwardFeedNets Fully connected forward feed network to predict Nasdaq one month out. There's also the sunspot network it was based on there.
-
+https://github.com/timestocome/FullyConnectedForwardFeedNets Fully connected forward feed network to predict Nasdaq
 
 https://github.com/timestocome/StockMarketIndexClustering Try clustering on the indexes to look for outliers
 
@@ -58,7 +58,7 @@ http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf A
 http://www.chaos.gb.net/ClydeOsler1997.pdf Charting: Chaos Theory in Disguise
 
 
-<b>Misc Reading:</b> 
+<b>Recommended Reading:</b> 
 
 http://www.e-m-h.org/Fama70.pdf  Efficient Market Hypothesis 
 
@@ -80,7 +80,7 @@ https://www.wired.com/2009/02/wp-quant/ Wired: The Formula that Killed Wall St
 http://onlinelibrary.wiley.com/doi/10.1111/j.1467-6419.2007.00519.x/abstract What do we know about the profitability of technical analysis
 
 
-<b>To read:</b>
+<b>On my reading list:</b>
 
 https://is.muni.cz/th/422802/fi_b/bakalarka_final.pdf Prediction of Financial Markets Using Deep Learning
 
