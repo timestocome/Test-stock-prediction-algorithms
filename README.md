@@ -41,7 +41,7 @@ https://github.com/timestocome/StockMarketTimeSeriesAnomalies Stock market/time 
 
 
 
-<b>Todo list of things that look promising enough to write code:</b>
+<b>To code:</b>
 
 https://github.com/openai/evolution-strategies-starter  Try some GA trading bots with and without NN 
 
@@ -55,6 +55,7 @@ http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The 
 
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An empirical analysis of algorithmic trading on financial markets 
 
+http://philipperemy.github.io/anomaly-detection/ Anomaly Detection in Time Series using Auto Encoders
 
 
 <b>Recommended Reading:</b> 
@@ -107,7 +108,6 @@ https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algo
 
 http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
 
-http://philipperemy.github.io/anomaly-detection/ Anomaly Detection in Time Series using Auto Encoders
 
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An emprical analysis of algorithmic trading on financial markets
 
