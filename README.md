@@ -83,7 +83,7 @@ https://www.wired.com/2009/02/wp-quant/ Wired: The Formula that Killed Wall St
 http://onlinelibrary.wiley.com/doi/10.1111/j.1467-6419.2007.00519.x/abstract What do we know about the profitability of technical analysis
 
 
-http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-series.html Google - Our quest for robust time series forecasting at scale
+
 
 <b>On my reading list:</b>
 
