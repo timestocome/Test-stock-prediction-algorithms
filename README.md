@@ -70,7 +70,7 @@ http://www.unofficialgoogledatascience.com/2017/04/our-quest-for-robust-time-ser
 http://www.econ.ucla.edu/workingpapers/wp239.pdf Let's Take the Con Out of Economics
 
 
-https://www.manning.com/books/machine-learning-with-tensorflow Meap Machine Learning with TensorFlow, excellent TensorFlow reference, not a good reference if you're looking to learn Machine Learning, I'm on my second pass, reworking all the example code with stock data, the stuff that shows promise is being loaded up here. I'll go deeper into all of them as time allows 
+https://www.manning.com/books/machine-learning-with-tensorflow Meap Machine Learning with TensorFlow
 
 https://www.amazon.com/gp/product/B01AFXZ2F4/ Everybody Lies, Big Data, New Data, and What the Internet can tell us about who we really are
 
