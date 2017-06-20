@@ -54,7 +54,6 @@ http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf A
 
 http://philipperemy.github.io/anomaly-detection/ Anomaly Detection in Time Series using Auto Encoders
 
-https://eng.uber.com/neural-networks/ Engineering extreme event forecasting at Uber with RNNs
 
 
 <b>Recommended Reading:</b> 
@@ -80,6 +79,7 @@ https://www.wired.com/2009/02/wp-quant/ Wired: The Formula that Killed Wall St
 
 http://onlinelibrary.wiley.com/doi/10.1111/j.1467-6419.2007.00519.x/abstract What do we know about the profitability of technical analysis
 
+https://eng.uber.com/neural-networks/ Engineering extreme event forecasting at Uber with RNNs
 
 
 
