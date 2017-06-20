@@ -96,8 +96,6 @@ http://quant-econ.net/_static/pdfs/py-quant-econ.pdf  Quantitative economics wit
 
 https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models
 
-https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-xgboost/amp/ X-Gradient Boosting for series predictions 
-
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
 http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
