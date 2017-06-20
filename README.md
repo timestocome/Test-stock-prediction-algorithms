@@ -47,7 +47,6 @@ https://github.com/openai/evolution-strategies-starter  Try some GA trading bots
 
 http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Genetic Algorithms to Find Technical Trading Rules
 
-http://www.kdnuggets.com/2017/04/time-series-analysis-generalized-additive-models.html  Time Series Analysis with Generalized Additive Models 
 
 http://dl.acm.org/citation.cfm?id=1541882 Anomaly Detection: A Survey 2009 ACM 
 
@@ -102,8 +101,6 @@ https://research.google.com/pubs/pub41854.html Inferring causal impact using bay
 
 https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-xgboost/amp/ X-Gradient Boosting for series predictions 
 
-https://research.fb.com/prophet-forecasting-at-scale/  FB open source Prophet for series prediction 
-
 
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
@@ -125,7 +122,9 @@ https://fred.stlouisfed.org/ FRED, Federal Reserve Bank of St Louis
 http://www.zerohedge.com/ ZeroHedge, mostly noise, occasionally something useful appears
 
 
+<b>Cool tools:</b>
 
+https://facebookincubator.github.io/prophet/docs/quick_start.html Facebook Prophet - Python and R time series prediction library
 
 
 <b>Podcasts:</b>
