@@ -29,8 +29,6 @@ https://github.com/timestocome/StockMarketMovingAverage  Moving average vs buy a
 
 https://github.com/timestocome/FullyConnectedForwardFeedNets Fully connected ff network to predict Nasdaq
 
-https://github.com/timestocome/StockMarketIndexClustering Try clustering on the indexes to look for outliers
-
 https://github.com/timestocome/StockMarketLinearRegression  Experiments in various regression techniques 
 
 https://github.com/timestocome/Gold Investigate gold prices over time
