@@ -47,7 +47,6 @@ http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Ge
 
 http://dl.acm.org/citation.cfm?id=1541882 Anomaly Detection: A Survey 2009 ACM 
 
-http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The Theory of Speculation, L. Bachelier
 
 http://philipperemy.github.io/anomaly-detection/ Anomaly Detection in Time Series using Auto Encoders
 
@@ -79,6 +78,9 @@ http://onlinelibrary.wiley.com/doi/10.1111/j.1467-6419.2007.00519.x/abstract Wha
 https://eng.uber.com/neural-networks/ Engineering extreme event forecasting at Uber with RNNs
 
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An empirical analysis of algorithmic trading on financial markets 
+
+http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The Theory of Speculation, L. Bachelier
+
 
 <b>On my reading list:</b>
 
