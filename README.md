@@ -45,9 +45,6 @@ https://github.com/openai/evolution-strategies-starter  Try some GA trading bots
 
 http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Genetic Algorithms to Find Technical Trading Rules
 
-http://dl.acm.org/citation.cfm?id=1541882 Anomaly Detection: A Survey 2009 ACM 
-
-
 http://philipperemy.github.io/anomaly-detection/ Anomaly Detection in Time Series using Auto Encoders
 
 
@@ -80,6 +77,9 @@ https://eng.uber.com/neural-networks/ Engineering extreme event forecasting at U
 http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An empirical analysis of algorithmic trading on financial markets 
 
 http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The Theory of Speculation, L. Bachelier
+
+http://dl.acm.org/citation.cfm?id=1541882 Anomaly Detection: A Survey 2009 ACM 
+
 
 
 <b>On my reading list:</b>
