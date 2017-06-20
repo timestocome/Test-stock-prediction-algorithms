@@ -9,6 +9,7 @@ from fbprophet import Prophet
 
 # https://research.fb.com/prophet-forecasting-at-scale/
 # https://facebookincubator.github.io/prophet/docs/quick_start.html
+# https://facebookincubator.github.io/prophet/static/prophet_paper_20170113.pdf
 
 ###################################################################################
 # read in and set up data
