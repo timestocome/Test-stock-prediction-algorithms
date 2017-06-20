@@ -86,7 +86,6 @@ http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The 
 
 https://is.muni.cz/th/422802/fi_b/bakalarka_final.pdf Prediction of Financial Markets Using Deep Learning
 
-
 https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf  Predictive analysis of financial time series 
 
 http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/j.cumming.pdf  An Investigation into the Use of Reinforcement Learning Techniques within the Algorithmic Trading Domain 
@@ -97,17 +96,12 @@ http://quant-econ.net/_static/pdfs/py-quant-econ.pdf  Quantitative economics wit
 
 https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models
 
-
 https://www.r-bloggers.com/forecasting-markets-using-extreme-gradient-boosting-xgboost/amp/ X-Gradient Boosting for series predictions 
-
 
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
-
 http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
 
-
-http://lib.ugent.be/fulltxt/RUG01/001/315/567/RUG01-001315567_2010_0001_AC.pdf An emprical analysis of algorithmic trading on financial markets
 
 
 <b>Useful Websites:</b>
