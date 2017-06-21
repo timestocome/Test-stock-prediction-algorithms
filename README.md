@@ -45,9 +45,6 @@ https://github.com/openai/evolution-strategies-starter  Try some GA trading bots
 
 http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Genetic Algorithms to Find Technical Trading Rules
 
-http://philipperemy.github.io/anomaly-detection/ Anomaly Detection in Time Series using Auto Encoders
-
-
 
 <b>Recommended Reading:</b> 
 
