@@ -45,6 +45,8 @@ https://github.com/openai/evolution-strategies-starter  Try some GA trading bots
 
 http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Genetic Algorithms to Find Technical Trading Rules
 
+https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
+
 
 <b>Recommended Reading:</b> 
 
@@ -92,8 +94,6 @@ http://www.wiley.com/WileyCDA/WileyTitle/productCd-111909657X.html The ultimate 
 http://quant-econ.net/_static/pdfs/py-quant-econ.pdf  Quantitative economics with Python 
 
 https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models
-
-https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
 http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
 
