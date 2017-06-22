@@ -47,6 +47,9 @@ http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Ge
 
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
+http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
+
+
 
 <b>Recommended Reading:</b> 
 
@@ -79,6 +82,7 @@ http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The 
 
 http://dl.acm.org/citation.cfm?id=1541882 Anomaly Detection: A Survey 2009 ACM 
 
+http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
 
 
 <b>On my reading list:</b>
@@ -93,7 +97,6 @@ http://quant-econ.net/_static/pdfs/py-quant-econ.pdf  Quantitative economics wit
 
 https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models
 
-http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
 
 
 
