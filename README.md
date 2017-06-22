@@ -89,8 +89,6 @@ https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian
 
 http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/j.cumming.pdf  An Investigation into the Use of Reinforcement Learning Techniques within the Algorithmic Trading Domain 
 
-http://www.wiley.com/WileyCDA/WileyTitle/productCd-111909657X.html The ultimate algorithmic trading system toolbox 
-
 http://quant-econ.net/_static/pdfs/py-quant-econ.pdf  Quantitative economics with Python 
 
 https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models
