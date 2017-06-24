@@ -81,15 +81,13 @@ http://dl.acm.org/citation.cfm?id=1541882 Anomaly Detection: A Survey 2009 ACM
 
 http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
 
+https://is.muni.cz/th/422802/fi_b/bakalarka_final.pdf Prediction of Financial Markets Using Deep Learning ( see: https://github.com/timestocome/FullyConnectedForwardFeedNets for an example fully connected deep learning network )
 
 
 <b>On my reading list:</b>
 
-https://is.muni.cz/th/422802/fi_b/bakalarka_final.pdf Prediction of Financial Markets Using Deep Learning
 
 http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/j.cumming.pdf  An Investigation into the Use of Reinforcement Learning Techniques within the Algorithmic Trading Domain 
-
-https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models
 
 http://socserv.mcmaster.ca/racine/ECO0301.pdf Nonparametric Econometrics: A Primer
 
