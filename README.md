@@ -104,8 +104,6 @@ https://en.wikipedia.org/wiki/The_Drunkard%27s_Walk The Drunkard's Walk
 
 <b>Useful Websites:</b>
 
-https://www.wilmott.com/ Wilmott, Serving the qualitative finance community
-
 http://www.nber.org/ The National Bureau of Economic Research 
 
 https://fred.stlouisfed.org/ FRED, Federal Reserve Bank of St Louis
