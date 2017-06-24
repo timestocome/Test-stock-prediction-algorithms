@@ -43,11 +43,8 @@ https://github.com/timestocome/TechnicalTrading Test technical trading algorithm
 
 https://github.com/openai/evolution-strategies-starter  Try some GA trading bots with and without NN 
 
-http://www.eecs.harvard.edu/~parkes/cs286r/spring08/reading3/Neel99.pdf Using Genetic Algorithms to Find Technical Trading Rules
-
 https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
-http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
 
 
 
@@ -82,14 +79,11 @@ http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The 
 
 http://dl.acm.org/citation.cfm?id=1541882 Anomaly Detection: A Survey 2009 ACM 
 
-http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
 
 
 <b>On my reading list:</b>
 
 https://is.muni.cz/th/422802/fi_b/bakalarka_final.pdf Prediction of Financial Markets Using Deep Learning
-
-https://www.cs.elte.hu/blobs/diplomamunkak/bsc_matelem/2014/fora_gyula_krisztian.pdf  Predictive analysis of financial time series 
 
 http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/j.cumming.pdf  An Investigation into the Use of Reinforcement Learning Techniques within the Algorithmic Trading Domain 
 
