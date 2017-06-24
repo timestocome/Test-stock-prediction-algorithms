@@ -115,6 +115,10 @@ http://www.zerohedge.com/ ZeroHedge, mostly noise, occasionally something useful
 
 https://facebookincubator.github.io/prophet/docs/quick_start.html Facebook Prophet - Python and R time series prediction library
 
+https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models ( Google has an R package http://google.github.io/CausalImpact/ to go with this paper )
+
+
+
 
 <b>Podcasts:</b>
 
