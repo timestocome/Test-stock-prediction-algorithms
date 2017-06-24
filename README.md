@@ -113,6 +113,8 @@ https://facebookincubator.github.io/prophet/docs/quick_start.html Facebook Proph
 
 https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models ( Google has an R package http://google.github.io/CausalImpact/ to go with this paper )
 
+https://gbeced.github.io/pyalgotrade/ Python Algorithmic Trading Library
+
 
 
 
