@@ -35,7 +35,7 @@ https://github.com/timestocome/Gold Investigate gold prices over time
 
 https://github.com/timestocome/StockMarketTimeSeriesAnomalies Stock market/time series anomalies
 
-https://github.com/timestocome/technicalTrading Test technical trading algorithms
+https://github.com/timestocome/TechnicalTrading Test technical trading algorithms
 
 
 
