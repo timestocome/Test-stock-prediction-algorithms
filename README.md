@@ -83,11 +83,10 @@ http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
 
 https://is.muni.cz/th/422802/fi_b/bakalarka_final.pdf Prediction of Financial Markets Using Deep Learning ( see: https://github.com/timestocome/FullyConnectedForwardFeedNets for an example fully connected deep learning network )
 
+http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/j.cumming.pdf  An Investigation into the Use of Reinforcement Learning Techniques within the Algorithmic Trading Domain 
+
 
 <b>On my reading list:</b>
-
-
-http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/j.cumming.pdf  An Investigation into the Use of Reinforcement Learning Techniques within the Algorithmic Trading Domain 
 
 http://socserv.mcmaster.ca/racine/ECO0301.pdf Nonparametric Econometrics: A Primer
 
