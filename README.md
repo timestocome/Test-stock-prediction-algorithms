@@ -79,6 +79,8 @@ http://www.radio.goldseek.com/bachelier-thesis-theory-of-speculation-en.pdf The 
 
 http://dl.acm.org/citation.cfm?id=1541882 Anomaly Detection: A Survey 2009 ACM 
 
+http://www.mrao.cam.ac.uk/~mph/Technical_Analysis.pdf Technical Analysis
+
 
 
 <b>On my reading list:</b>
@@ -92,6 +94,12 @@ http://quant-econ.net/_static/pdfs/py-quant-econ.pdf  Quantitative economics wit
 https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models
 
 http://socserv.mcmaster.ca/racine/ECO0301.pdf Nonparametric Econometrics: A Primer
+
+http://natureofcode.com/ The Nature of Code
+
+http://www.penguinrandomhouse.com/books/314049/scale-by-geoffrey-west/9781594205583/ Scale: The universal laws of growth...
+
+https://en.wikipedia.org/wiki/The_Drunkard%27s_Walk The Drunkard's Walk
 
 
 <b>Useful Websites:</b>
