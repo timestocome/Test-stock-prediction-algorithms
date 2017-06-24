@@ -89,8 +89,6 @@ https://is.muni.cz/th/422802/fi_b/bakalarka_final.pdf Prediction of Financial Ma
 
 http://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/j.cumming.pdf  An Investigation into the Use of Reinforcement Learning Techniques within the Algorithmic Trading Domain 
 
-http://quant-econ.net/_static/pdfs/py-quant-econ.pdf  Quantitative economics with Python 
-
 https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models
 
 http://socserv.mcmaster.ca/racine/ECO0301.pdf Nonparametric Econometrics: A Primer
