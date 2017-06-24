@@ -97,7 +97,7 @@ http://quant-econ.net/_static/pdfs/py-quant-econ.pdf  Quantitative economics wit
 
 https://research.google.com/pubs/pub41854.html Inferring causal impact using bayesian structural time series models
 
-
+http://socserv.mcmaster.ca/racine/ECO0301.pdf Nonparametric Econometrics: A Primer
 
 
 <b>Useful Websites:</b>
