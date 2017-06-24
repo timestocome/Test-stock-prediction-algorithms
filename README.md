@@ -115,7 +115,7 @@ https://research.google.com/pubs/pub41854.html Inferring causal impact using bay
 
 https://gbeced.github.io/pyalgotrade/ Python Algorithmic Trading Library
 
-
+http://pybrain.org/ PyBrain Machine Learning Library
 
 
 <b>Podcasts:</b>
