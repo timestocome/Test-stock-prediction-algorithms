@@ -1,0 +1,948 @@
+Number of high, low gain and loss days:
+ 1    6495
+-1    5076
+-2      61
+ 2      42
+Name: change, dtype: int64
+    
+Unique patterns found: 1041 of 262144 possible patterns: 
+   
+Searching for patterns 9 days long: 
+High gain: 2, small gain: 1, small loss: -1, large loss: -2
+-------------------------------------------------------------
+Pattern appears: 0.02% of the time 
+Pattern: [-2, -1, 1, 1, -1, 1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, -2, 1, 1, 1, -1, 1, 1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, -2, 1, 1, 1, 1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, -2, 2, -1, 1, 1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.03% of the time 
+Pattern: [-1, -1, -2, 2, -1, 1, 1, 1] Next day loss occurs: 66.667% of the time
+   
+Pattern appears: 0.03% of the time 
+Pattern: [-1, -1, -1, -1, -2, 1, 1, 1] Next day gain occurs: 66.667% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, -1, -1, -1, -2, 2, -1, 1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, -1, -1, -1, -1, -1, -2, 1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.03% of the time 
+Pattern: [-1, -1, -1, -1, -1, -1, -1, -2] Next day gain occurs: 66.667% of the time
+   
+Pattern appears: 0.18% of the time 
+Pattern: [-1, -1, -1, -1, -1, -1, -1, -1] Next day gain occurs: 90.476% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [-1, -1, -1, -1, -1, -1, -1, -1] Next day loss occurs: 52.778% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [-1, -1, -1, -1, -1, -1, -1, 1] Next day gain occurs: 55.556% of the time
+   
+Pattern appears: 0.18% of the time 
+Pattern: [-1, -1, -1, -1, -1, -1, -1, 1] Next day loss occurs: 95.238% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [-1, -1, -1, -1, -1, -1, 1, -1] Next day loss occurs: 53.125% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [-1, -1, -1, -1, -1, -1, 1, 1] Next day gain occurs: 57.895% of the time
+   
+Pattern appears: 0.28% of the time 
+Pattern: [-1, -1, -1, -1, -1, 1, -1, -1] Next day loss occurs: 57.576% of the time
+   
+Pattern appears: 0.13% of the time 
+Pattern: [-1, -1, -1, -1, -1, 1, -1, -1] Next day loss occurs: 93.333% of the time
+   
+Pattern appears: 0.29% of the time 
+Pattern: [-1, -1, -1, -1, -1, 1, -1, 1] Next day gain occurs: 58.824% of the time
+   
+Pattern appears: 0.29% of the time 
+Pattern: [-1, -1, -1, -1, -1, 1, 1, -1] Next day loss occurs: 61.765% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [-1, -1, -1, -1, -1, 1, 1, 1] Next day gain occurs: 55.556% of the time
+   
+Pattern appears: 0.35% of the time 
+Pattern: [-1, -1, -1, -1, 1, -1, -1, -1] Next day gain occurs: 60.976% of the time
+   
+Pattern appears: 0.26% of the time 
+Pattern: [-1, -1, -1, -1, 1, -1, -1, 1] Next day gain occurs: 60.000% of the time
+   
+Pattern appears: 0.21% of the time 
+Pattern: [-1, -1, -1, -1, 1, -1, 1, -1] Next day loss occurs: 54.167% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [-1, -1, -1, -1, 1, -1, 1, 1] Next day gain occurs: 55.556% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [-1, -1, -1, -1, 1, 1, -1, -1] Next day loss occurs: 72.222% of the time
+   
+Pattern appears: 0.09% of the time 
+Pattern: [-1, -1, -1, -1, 1, 1, -1, -1] Next day loss occurs: 90.909% of the time
+   
+Pattern appears: 0.26% of the time 
+Pattern: [-1, -1, -1, -1, 1, 1, -1, 1] Next day gain occurs: 60.000% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [-1, -1, -1, -1, 1, 1, 1, -1] Next day gain occurs: 53.125% of the time
+   
+Pattern appears: 0.45% of the time 
+Pattern: [-1, -1, -1, -1, 1, 1, 1, 1] Next day gain occurs: 73.077% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [-1, -1, -1, 1, -1, -1, -1, -1] Next day gain occurs: 89.474% of the time
+   
+Pattern appears: 0.30% of the time 
+Pattern: [-1, -1, -1, 1, -1, -1, -1, -1] Next day gain occurs: 51.429% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [-1, -1, -1, 1, -1, -1, -1, 1] Next day gain occurs: 54.348% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [-1, -1, -1, 1, -1, -1, 1, -1] Next day loss occurs: 52.632% of the time
+   
+Pattern appears: 0.09% of the time 
+Pattern: [-1, -1, -1, 1, -1, -1, 1, -1] Next day loss occurs: 90.000% of the time
+   
+Pattern appears: 0.15% of the time 
+Pattern: [-1, -1, -1, 1, -1, -1, 1, 1] Next day gain occurs: 94.444% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [-1, -1, -1, 1, -1, -1, 1, 1] Next day gain occurs: 52.778% of the time
+   
+Pattern appears: 0.18% of the time 
+Pattern: [-1, -1, -1, 1, -1, 1, -1, -1] Next day gain occurs: 52.381% of the time
+   
+Pattern appears: 0.12% of the time 
+Pattern: [-1, -1, -1, 1, -1, 1, -1, 1] Next day gain occurs: 92.857% of the time
+   
+Pattern appears: 0.19% of the time 
+Pattern: [-1, -1, -1, 1, -1, 1, -1, 1] Next day loss occurs: 59.091% of the time
+   
+Pattern appears: 0.28% of the time 
+Pattern: [-1, -1, -1, 1, -1, 1, 1, -1] Next day gain occurs: 54.545% of the time
+   
+Pattern appears: 0.42% of the time 
+Pattern: [-1, -1, -1, 1, -1, 1, 1, 1] Next day gain occurs: 55.102% of the time
+   
+Pattern appears: 0.43% of the time 
+Pattern: [-1, -1, -1, 1, 1, -1, -1, -1] Next day gain occurs: 68.000% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [-1, -1, -1, 1, 1, -1, -1, 1] Next day gain occurs: 67.742% of the time
+   
+Pattern appears: 0.19% of the time 
+Pattern: [-1, -1, -1, 1, 1, -1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.35% of the time 
+Pattern: [-1, -1, -1, 1, 1, -1, 1, 1] Next day gain occurs: 60.976% of the time
+   
+Pattern appears: 0.15% of the time 
+Pattern: [-1, -1, -1, 1, 1, 1, -1, -1] Next day gain occurs: 88.889% of the time
+   
+Pattern appears: 0.28% of the time 
+Pattern: [-1, -1, -1, 1, 1, 1, -1, -1] Next day gain occurs: 51.515% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [-1, -1, -1, 1, 1, 1, -1, 1] Next day gain occurs: 60.000% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [-1, -1, -1, 1, 1, 1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.69% of the time 
+Pattern: [-1, -1, -1, 1, 1, 1, 1, 1] Next day gain occurs: 70.000% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, -1, 1, -1, -1, -1, -1, -2] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.15% of the time 
+Pattern: [-1, -1, 1, -1, -1, -1, -1, -1] Next day gain occurs: 94.444% of the time
+   
+Pattern appears: 0.28% of the time 
+Pattern: [-1, -1, 1, -1, -1, -1, -1, -1] Next day loss occurs: 51.515% of the time
+   
+Pattern appears: 0.29% of the time 
+Pattern: [-1, -1, 1, -1, -1, -1, -1, 1] Next day gain occurs: 58.824% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [-1, -1, 1, -1, -1, -1, 1, -1] Next day loss occurs: 58.065% of the time
+   
+Pattern appears: 0.17% of the time 
+Pattern: [-1, -1, 1, -1, -1, -1, 1, 1] Next day gain occurs: 95.000% of the time
+   
+Pattern appears: 0.38% of the time 
+Pattern: [-1, -1, 1, -1, -1, -1, 1, 1] Next day gain occurs: 56.818% of the time
+   
+Pattern appears: 0.15% of the time 
+Pattern: [-1, -1, 1, -1, -1, 1, -1, -1] Next day loss occurs: 72.222% of the time
+   
+Pattern appears: 0.17% of the time 
+Pattern: [-1, -1, 1, -1, -1, 1, -1, 1] Next day gain occurs: 70.000% of the time
+   
+Pattern appears: 0.22% of the time 
+Pattern: [-1, -1, 1, -1, -1, 1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [-1, -1, 1, -1, -1, 1, 1, 1] Next day gain occurs: 78.261% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [-1, -1, 1, -1, 1, -1, -1, -1] Next day gain occurs: 63.158% of the time
+   
+Pattern appears: 0.19% of the time 
+Pattern: [-1, -1, 1, -1, 1, -1, -1, 1] Next day gain occurs: 63.636% of the time
+   
+Pattern appears: 0.13% of the time 
+Pattern: [-1, -1, 1, -1, 1, -1, -1, 1] Next day loss occurs: 93.333% of the time
+   
+Pattern appears: 0.19% of the time 
+Pattern: [-1, -1, 1, -1, 1, -1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [-1, -1, 1, -1, 1, -1, 1, 1] Next day loss occurs: 52.632% of the time
+   
+Pattern appears: 0.20% of the time 
+Pattern: [-1, -1, 1, -1, 1, 1, -1, -1] Next day gain occurs: 52.174% of the time
+   
+Pattern appears: 0.32% of the time 
+Pattern: [-1, -1, 1, -1, 1, 1, -1, 1] Next day gain occurs: 62.162% of the time
+   
+Pattern appears: 0.37% of the time 
+Pattern: [-1, -1, 1, -1, 1, 1, 1, -1] Next day loss occurs: 58.140% of the time
+   
+Pattern appears: 0.44% of the time 
+Pattern: [-1, -1, 1, -1, 1, 1, 1, 1] Next day gain occurs: 60.784% of the time
+   
+Pattern appears: 0.29% of the time 
+Pattern: [-1, -1, 1, 1, -1, -1, -1, -1] Next day loss occurs: 61.765% of the time
+   
+Pattern appears: 0.48% of the time 
+Pattern: [-1, -1, 1, 1, -1, -1, -1, 1] Next day gain occurs: 57.143% of the time
+   
+Pattern appears: 0.22% of the time 
+Pattern: [-1, -1, 1, 1, -1, -1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [-1, -1, 1, 1, -1, -1, 1, 1] Next day gain occurs: 66.667% of the time
+   
+Pattern appears: 0.24% of the time 
+Pattern: [-1, -1, 1, 1, -1, 1, -1, -1] Next day loss occurs: 53.571% of the time
+   
+Pattern appears: 0.20% of the time 
+Pattern: [-1, -1, 1, 1, -1, 1, -1, 1] Next day gain occurs: 65.217% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [-1, -1, 1, 1, -1, 1, 1, -1] Next day gain occurs: 53.125% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [-1, -1, 1, 1, -1, 1, 1, 1] Next day gain occurs: 62.222% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, -1, 1, 1, 1, -1, -1, -2] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.32% of the time 
+Pattern: [-1, -1, 1, 1, 1, -1, -1, -1] Next day gain occurs: 51.351% of the time
+   
+Pattern appears: 0.30% of the time 
+Pattern: [-1, -1, 1, 1, 1, -1, -1, 1] Next day gain occurs: 68.571% of the time
+   
+Pattern appears: 0.32% of the time 
+Pattern: [-1, -1, 1, 1, 1, -1, 1, -1] Next day loss occurs: 54.054% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [-1, -1, 1, 1, 1, -1, 1, 1] Next day gain occurs: 69.565% of the time
+   
+Pattern appears: 0.35% of the time 
+Pattern: [-1, -1, 1, 1, 1, 1, -1, -1] Next day gain occurs: 56.098% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [-1, -1, 1, 1, 1, 1, -1, 1] Next day gain occurs: 94.737% of the time
+   
+Pattern appears: 0.40% of the time 
+Pattern: [-1, -1, 1, 1, 1, 1, -1, 1] Next day gain occurs: 61.702% of the time
+   
+Pattern appears: 0.57% of the time 
+Pattern: [-1, -1, 1, 1, 1, 1, 1, -1] Next day gain occurs: 52.239% of the time
+   
+Pattern appears: 0.99% of the time 
+Pattern: [-1, -1, 1, 1, 1, 1, 1, 1] Next day gain occurs: 68.103% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, -1, 2, 1, 1, 1, -1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, 1, -1, -2, -1, 1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [-1, 1, -1, -1, -1, -1, -1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.15% of the time 
+Pattern: [-1, 1, -1, -1, -1, -1, -1, -1] Next day loss occurs: 94.118% of the time
+   
+Pattern appears: 0.30% of the time 
+Pattern: [-1, 1, -1, -1, -1, -1, -1, 1] Next day loss occurs: 54.286% of the time
+   
+Pattern appears: 0.19% of the time 
+Pattern: [-1, 1, -1, -1, -1, -1, 1, -1] Next day loss occurs: 54.545% of the time
+   
+Pattern appears: 0.32% of the time 
+Pattern: [-1, 1, -1, -1, -1, -1, 1, 1] Next day loss occurs: 56.757% of the time
+   
+Pattern appears: 0.25% of the time 
+Pattern: [-1, 1, -1, -1, -1, 1, -1, -1] Next day loss occurs: 55.172% of the time
+   
+Pattern appears: 0.22% of the time 
+Pattern: [-1, 1, -1, -1, -1, 1, -1, 1] Next day gain occurs: 69.231% of the time
+   
+Pattern appears: 0.22% of the time 
+Pattern: [-1, 1, -1, -1, -1, 1, 1, -1] Next day loss occurs: 57.692% of the time
+   
+Pattern appears: 0.42% of the time 
+Pattern: [-1, 1, -1, -1, -1, 1, 1, 1] Next day gain occurs: 59.184% of the time
+   
+Pattern appears: 0.22% of the time 
+Pattern: [-1, 1, -1, -1, 1, -1, -1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.17% of the time 
+Pattern: [-1, 1, -1, -1, 1, -1, -1, 1] Next day gain occurs: 65.000% of the time
+   
+Pattern appears: 0.13% of the time 
+Pattern: [-1, 1, -1, -1, 1, -1, 1, -1] Next day gain occurs: 66.667% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [-1, 1, -1, -1, 1, -1, 1, 1] Next day gain occurs: 54.839% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, 1, -1, -1, 1, -1, 2, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.24% of the time 
+Pattern: [-1, 1, -1, -1, 1, 1, -1, -1] Next day loss occurs: 57.143% of the time
+   
+Pattern appears: 0.21% of the time 
+Pattern: [-1, 1, -1, -1, 1, 1, -1, 1] Next day gain occurs: 72.000% of the time
+   
+Pattern appears: 0.26% of the time 
+Pattern: [-1, 1, -1, -1, 1, 1, 1, -1] Next day gain occurs: 53.333% of the time
+   
+Pattern appears: 0.59% of the time 
+Pattern: [-1, 1, -1, -1, 1, 1, 1, 1] Next day gain occurs: 65.217% of the time
+   
+Pattern appears: 0.11% of the time 
+Pattern: [-1, 1, -1, 1, -1, -1, -1, -1] Next day gain occurs: 92.308% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [-1, 1, -1, 1, -1, -1, -1, -1] Next day loss occurs: 63.158% of the time
+   
+Pattern appears: 0.20% of the time 
+Pattern: [-1, 1, -1, 1, -1, -1, -1, 1] Next day gain occurs: 52.174% of the time
+   
+Pattern appears: 0.18% of the time 
+Pattern: [-1, 1, -1, 1, -1, -1, 1, -1] Next day gain occurs: 57.143% of the time
+   
+Pattern appears: 0.28% of the time 
+Pattern: [-1, 1, -1, 1, -1, -1, 1, 1] Next day gain occurs: 54.545% of the time
+   
+Pattern appears: 0.23% of the time 
+Pattern: [-1, 1, -1, 1, -1, 1, -1, -1] Next day gain occurs: 81.481% of the time
+   
+Pattern appears: 0.21% of the time 
+Pattern: [-1, 1, -1, 1, -1, 1, -1, 1] Next day gain occurs: 56.000% of the time
+   
+Pattern appears: 0.18% of the time 
+Pattern: [-1, 1, -1, 1, -1, 1, 1, -1] Next day loss occurs: 52.381% of the time
+   
+Pattern appears: 0.25% of the time 
+Pattern: [-1, 1, -1, 1, -1, 1, 1, 1] Next day gain occurs: 51.724% of the time
+   
+Pattern appears: 0.12% of the time 
+Pattern: [-1, 1, -1, 1, 1, -1, -1, -1] Next day gain occurs: 92.857% of the time
+   
+Pattern appears: 0.19% of the time 
+Pattern: [-1, 1, -1, 1, 1, -1, -1, -1] Next day loss occurs: 59.091% of the time
+   
+Pattern appears: 0.11% of the time 
+Pattern: [-1, 1, -1, 1, 1, -1, -1, 1] Next day gain occurs: 92.308% of the time
+   
+Pattern appears: 0.19% of the time 
+Pattern: [-1, 1, -1, 1, 1, -1, -1, 1] Next day loss occurs: 54.545% of the time
+   
+Pattern appears: 0.19% of the time 
+Pattern: [-1, 1, -1, 1, 1, -1, 1, -1] Next day gain occurs: 54.545% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [-1, 1, -1, 1, 1, -1, 1, 1] Next day gain occurs: 51.282% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [-1, 1, -1, 1, 1, 1, -1, -1] Next day gain occurs: 58.333% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [-1, 1, -1, 1, 1, 1, -1, 1] Next day gain occurs: 52.778% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [-1, 1, -1, 1, 1, 1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.54% of the time 
+Pattern: [-1, 1, -1, 1, 1, 1, 1, 1] Next day gain occurs: 55.556% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [-1, 1, -1, 2, 1, 1, -1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [-1, 1, 1, -1, -1, -1, -1, -1] Next day gain occurs: 60.000% of the time
+   
+Pattern appears: 0.15% of the time 
+Pattern: [-1, 1, 1, -1, -1, -1, -1, 1] Next day gain occurs: 94.118% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [-1, 1, 1, -1, -1, -1, -1, 1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.17% of the time 
+Pattern: [-1, 1, 1, -1, -1, -1, 1, -1] Next day gain occurs: 95.000% of the time
+   
+Pattern appears: 0.26% of the time 
+Pattern: [-1, 1, 1, -1, -1, -1, 1, -1] Next day loss occurs: 63.333% of the time
+   
+Pattern appears: 0.44% of the time 
+Pattern: [-1, 1, 1, -1, -1, -1, 1, 1] Next day gain occurs: 58.824% of the time
+   
+Pattern appears: 0.24% of the time 
+Pattern: [-1, 1, 1, -1, -1, 1, -1, -1] Next day loss occurs: 53.571% of the time
+   
+Pattern appears: 0.24% of the time 
+Pattern: [-1, 1, 1, -1, -1, 1, -1, 1] Next day gain occurs: 64.286% of the time
+   
+Pattern appears: 0.28% of the time 
+Pattern: [-1, 1, 1, -1, -1, 1, 1, -1] Next day loss occurs: 51.515% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [-1, 1, 1, -1, -1, 1, 1, 1] Next day gain occurs: 67.391% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [-1, 1, 1, -1, 1, -1, -1, -1] Next day loss occurs: 59.375% of the time
+   
+Pattern appears: 0.29% of the time 
+Pattern: [-1, 1, 1, -1, 1, -1, -1, 1] Next day gain occurs: 61.765% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [-1, 1, 1, -1, 1, -1, 1, -1] Next day loss occurs: 63.158% of the time
+   
+Pattern appears: 0.25% of the time 
+Pattern: [-1, 1, 1, -1, 1, -1, 1, 1] Next day gain occurs: 55.172% of the time
+   
+Pattern appears: 0.29% of the time 
+Pattern: [-1, 1, 1, -1, 1, 1, -1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.35% of the time 
+Pattern: [-1, 1, 1, -1, 1, 1, -1, 1] Next day gain occurs: 60.976% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [-1, 1, 1, -1, 1, 1, 1, -1] Next day gain occurs: 56.410% of the time
+   
+Pattern appears: 0.59% of the time 
+Pattern: [-1, 1, 1, -1, 1, 1, 1, 1] Next day gain occurs: 53.623% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [-1, 1, 1, 1, -1, -1, -1, -1] Next day loss occurs: 52.778% of the time
+   
+Pattern appears: 0.15% of the time 
+Pattern: [-1, 1, 1, 1, -1, -1, -1, -1] Next day loss occurs: 94.444% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [-1, 1, 1, 1, -1, -1, -1, 1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.24% of the time 
+Pattern: [-1, 1, 1, 1, -1, -1, 1, -1] Next day gain occurs: 53.571% of the time
+   
+Pattern appears: 0.53% of the time 
+Pattern: [-1, 1, 1, 1, -1, -1, 1, 1] Next day gain occurs: 64.516% of the time
+   
+Pattern appears: 0.30% of the time 
+Pattern: [-1, 1, 1, 1, -1, 1, -1, -1] Next day loss occurs: 51.429% of the time
+   
+Pattern appears: 0.36% of the time 
+Pattern: [-1, 1, 1, 1, -1, 1, -1, 1] Next day loss occurs: 54.762% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [-1, 1, 1, 1, -1, 1, 1, -1] Next day loss occurs: 52.500% of the time
+   
+Pattern appears: 0.55% of the time 
+Pattern: [-1, 1, 1, 1, -1, 1, 1, 1] Next day gain occurs: 60.938% of the time
+   
+Pattern appears: 0.44% of the time 
+Pattern: [-1, 1, 1, 1, 1, -1, -1, -1] Next day gain occurs: 68.627% of the time
+   
+Pattern appears: 0.45% of the time 
+Pattern: [-1, 1, 1, 1, 1, -1, -1, 1] Next day gain occurs: 54.717% of the time
+   
+Pattern appears: 0.12% of the time 
+Pattern: [-1, 1, 1, 1, 1, -1, 1, -1] Next day gain occurs: 92.857% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [-1, 1, 1, 1, 1, -1, 1, -1] Next day gain occurs: 65.789% of the time
+   
+Pattern appears: 0.52% of the time 
+Pattern: [-1, 1, 1, 1, 1, -1, 1, 1] Next day gain occurs: 55.738% of the time
+   
+Pattern appears: 0.46% of the time 
+Pattern: [-1, 1, 1, 1, 1, 1, -1, -1] Next day loss occurs: 55.556% of the time
+   
+Pattern appears: 0.62% of the time 
+Pattern: [-1, 1, 1, 1, 1, 1, -1, 1] Next day gain occurs: 75.000% of the time
+   
+Pattern appears: 0.66% of the time 
+Pattern: [-1, 1, 1, 1, 1, 1, 1, -1] Next day loss occurs: 54.545% of the time
+   
+Pattern appears: 0.42% of the time 
+Pattern: [-1, 1, 1, 1, 1, 1, 1, 1] Next day gain occurs: 97.959% of the time
+   
+Pattern appears: 1.15% of the time 
+Pattern: [-1, 1, 1, 1, 1, 1, 1, 1] Next day gain occurs: 64.179% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [1, -2, 1, -1, 1, -1, -1, 1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.17% of the time 
+Pattern: [1, -1, -1, -1, -1, -1, -1, -1] Next day gain occurs: 95.000% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [1, -1, -1, -1, -1, -1, -1, -1] Next day gain occurs: 51.282% of the time
+   
+Pattern appears: 0.29% of the time 
+Pattern: [1, -1, -1, -1, -1, -1, -1, 1] Next day gain occurs: 52.941% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [1, -1, -1, -1, -1, -1, -1, 2] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [1, -1, -1, -1, -1, -1, 1, -1] Next day gain occurs: 52.778% of the time
+   
+Pattern appears: 0.35% of the time 
+Pattern: [1, -1, -1, -1, -1, -1, 1, 1] Next day gain occurs: 56.098% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [1, -1, -1, -1, -1, 1, -1, -1] Next day loss occurs: 57.895% of the time
+   
+Pattern appears: 0.22% of the time 
+Pattern: [1, -1, -1, -1, -1, 1, -1, 1] Next day gain occurs: 61.538% of the time
+   
+Pattern appears: 0.28% of the time 
+Pattern: [1, -1, -1, -1, -1, 1, 1, -1] Next day gain occurs: 51.515% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [1, -1, -1, -1, -1, 1, 1, 1] Next day gain occurs: 69.231% of the time
+   
+Pattern appears: 0.24% of the time 
+Pattern: [1, -1, -1, -1, -1, 1, 1, 1] Next day loss occurs: 96.429% of the time
+   
+Pattern appears: 0.36% of the time 
+Pattern: [1, -1, -1, -1, 1, -1, -1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.23% of the time 
+Pattern: [1, -1, -1, -1, 1, -1, -1, 1] Next day gain occurs: 70.370% of the time
+   
+Pattern appears: 0.17% of the time 
+Pattern: [1, -1, -1, -1, 1, -1, 1, -1] Next day gain occurs: 60.000% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, -1, -1, -1, 1, -1, 1, 1] Next day gain occurs: 63.043% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, -1, -1, -1, 1, 1, -1, -1] Next day loss occurs: 53.333% of the time
+   
+Pattern appears: 0.28% of the time 
+Pattern: [1, -1, -1, -1, 1, 1, -1, 1] Next day gain occurs: 69.697% of the time
+   
+Pattern appears: 0.37% of the time 
+Pattern: [1, -1, -1, -1, 1, 1, 1, -1] Next day gain occurs: 53.488% of the time
+   
+Pattern appears: 0.58% of the time 
+Pattern: [1, -1, -1, -1, 1, 1, 1, 1] Next day gain occurs: 61.765% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [1, -1, -1, 1, -1, -1, -1, -1] Next day loss occurs: 53.125% of the time
+   
+Pattern appears: 0.25% of the time 
+Pattern: [1, -1, -1, 1, -1, -1, -1, 1] Next day gain occurs: 65.517% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [1, -1, -1, 1, -1, -1, 1, -1] Next day gain occurs: 57.895% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [1, -1, -1, 1, -1, -1, 1, 1] Next day gain occurs: 75.000% of the time
+   
+Pattern appears: 0.09% of the time 
+Pattern: [1, -1, -1, 1, -1, 1, -1, -1] Next day gain occurs: 90.000% of the time
+   
+Pattern appears: 0.18% of the time 
+Pattern: [1, -1, -1, 1, -1, 1, -1, -1] Next day gain occurs: 57.143% of the time
+   
+Pattern appears: 0.15% of the time 
+Pattern: [1, -1, -1, 1, -1, 1, -1, 1] Next day gain occurs: 55.556% of the time
+   
+Pattern appears: 0.23% of the time 
+Pattern: [1, -1, -1, 1, -1, 1, 1, -1] Next day gain occurs: 70.370% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, -1, -1, 1, -1, 1, 1, 1] Next day gain occurs: 53.333% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [1, -1, -1, 1, 1, -1, -1, -1] Next day gain occurs: 94.737% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [1, -1, -1, 1, 1, -1, -1, -1] Next day gain occurs: 55.000% of the time
+   
+Pattern appears: 0.29% of the time 
+Pattern: [1, -1, -1, 1, 1, -1, -1, 1] Next day gain occurs: 52.941% of the time
+   
+Pattern appears: 0.25% of the time 
+Pattern: [1, -1, -1, 1, 1, -1, 1, -1] Next day loss occurs: 58.621% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [1, -1, -1, 1, 1, -1, 1, 1] Next day gain occurs: 55.556% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [1, -1, -1, 1, 1, 1, -1, -1] Next day loss occurs: 53.846% of the time
+   
+Pattern appears: 0.19% of the time 
+Pattern: [1, -1, -1, 1, 1, 1, -1, 1] Next day gain occurs: 95.455% of the time
+   
+Pattern appears: 0.37% of the time 
+Pattern: [1, -1, -1, 1, 1, 1, -1, 1] Next day gain occurs: 51.163% of the time
+   
+Pattern appears: 0.42% of the time 
+Pattern: [1, -1, -1, 1, 1, 1, 1, -1] Next day gain occurs: 57.143% of the time
+   
+Pattern appears: 0.88% of the time 
+Pattern: [1, -1, -1, 1, 1, 1, 1, 1] Next day gain occurs: 58.252% of the time
+   
+Pattern appears: 0.30% of the time 
+Pattern: [1, -1, 1, -1, -1, -1, -1, -1] Next day gain occurs: 54.286% of the time
+   
+Pattern appears: 0.21% of the time 
+Pattern: [1, -1, 1, -1, -1, -1, -1, 1] Next day gain occurs: 66.667% of the time
+   
+Pattern appears: 0.21% of the time 
+Pattern: [1, -1, 1, -1, -1, -1, 1, -1] Next day gain occurs: 54.167% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [1, -1, 1, -1, -1, -1, 1, 1] Next day gain occurs: 77.419% of the time
+   
+Pattern appears: 0.24% of the time 
+Pattern: [1, -1, 1, -1, -1, 1, -1, -1] Next day gain occurs: 53.571% of the time
+   
+Pattern appears: 0.22% of the time 
+Pattern: [1, -1, 1, -1, -1, 1, -1, 1] Next day gain occurs: 65.385% of the time
+   
+Pattern appears: 0.23% of the time 
+Pattern: [1, -1, 1, -1, -1, 1, 1, -1] Next day loss occurs: 55.556% of the time
+   
+Pattern appears: 0.45% of the time 
+Pattern: [1, -1, 1, -1, -1, 1, 1, 1] Next day gain occurs: 62.264% of the time
+   
+Pattern appears: 0.21% of the time 
+Pattern: [1, -1, 1, -1, 1, -1, -1, -1] Next day loss occurs: 54.167% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [1, -1, 1, -1, 1, -1, -1, 1] Next day gain occurs: 59.375% of the time
+   
+Pattern appears: 0.26% of the time 
+Pattern: [1, -1, 1, -1, 1, -1, 1, -1] Next day loss occurs: 53.333% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [1, -1, 1, -1, 1, -1, 1, 1] Next day gain occurs: 64.516% of the time
+   
+Pattern appears: 0.20% of the time 
+Pattern: [1, -1, 1, -1, 1, 1, -1, -1] Next day loss occurs: 52.174% of the time
+   
+Pattern appears: 0.21% of the time 
+Pattern: [1, -1, 1, -1, 1, 1, -1, 1] Next day gain occurs: 66.667% of the time
+   
+Pattern appears: 0.25% of the time 
+Pattern: [1, -1, 1, -1, 1, 1, 1, -1] Next day gain occurs: 62.069% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, -1, 1, -1, 1, 1, 1, 1] Next day gain occurs: 69.565% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [1, -1, 1, 1, -1, -1, -1, -1] Next day gain occurs: 94.737% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [1, -1, 1, 1, -1, -1, -1, -1] Next day gain occurs: 52.632% of the time
+   
+Pattern appears: 0.22% of the time 
+Pattern: [1, -1, 1, 1, -1, -1, -1, 1] Next day gain occurs: 73.077% of the time
+   
+Pattern appears: 0.26% of the time 
+Pattern: [1, -1, 1, 1, -1, -1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [1, -1, 1, 1, -1, -1, 1, 1] Next day loss occurs: 52.632% of the time
+   
+Pattern appears: 0.32% of the time 
+Pattern: [1, -1, 1, 1, -1, 1, -1, -1] Next day gain occurs: 54.054% of the time
+   
+Pattern appears: 0.21% of the time 
+Pattern: [1, -1, 1, 1, -1, 1, -1, 1] Next day gain occurs: 56.000% of the time
+   
+Pattern appears: 0.36% of the time 
+Pattern: [1, -1, 1, 1, -1, 1, 1, -1] Next day gain occurs: 57.143% of the time
+   
+Pattern appears: 0.53% of the time 
+Pattern: [1, -1, 1, 1, -1, 1, 1, 1] Next day gain occurs: 64.516% of the time
+   
+Pattern appears: 0.32% of the time 
+Pattern: [1, -1, 1, 1, 1, -1, -1, -1] Next day gain occurs: 51.351% of the time
+   
+Pattern appears: 0.47% of the time 
+Pattern: [1, -1, 1, 1, 1, -1, -1, 1] Next day gain occurs: 69.091% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [1, -1, 1, 1, 1, -1, 1, -1] Next day gain occurs: 62.500% of the time
+   
+Pattern appears: 0.49% of the time 
+Pattern: [1, -1, 1, 1, 1, -1, 1, 1] Next day gain occurs: 56.140% of the time
+   
+Pattern appears: 0.29% of the time 
+Pattern: [1, -1, 1, 1, 1, 1, -1, -1] Next day gain occurs: 97.059% of the time
+   
+Pattern appears: 0.53% of the time 
+Pattern: [1, -1, 1, 1, 1, 1, -1, -1] Next day loss occurs: 53.226% of the time
+   
+Pattern appears: 0.45% of the time 
+Pattern: [1, -1, 1, 1, 1, 1, -1, 1] Next day gain occurs: 60.377% of the time
+   
+Pattern appears: 0.50% of the time 
+Pattern: [1, -1, 1, 1, 1, 1, 1, -1] Next day gain occurs: 62.069% of the time
+   
+Pattern appears: 0.82% of the time 
+Pattern: [1, -1, 1, 1, 1, 1, 1, 1] Next day gain occurs: 58.333% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [1, -1, 1, 2, -1, 1, -1, 2] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [1, -1, 2, -1, -1, -1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.36% of the time 
+Pattern: [1, 1, -1, -1, -1, -1, -1, -1] Next day loss occurs: 57.143% of the time
+   
+Pattern appears: 0.16% of the time 
+Pattern: [1, 1, -1, -1, -1, -1, -1, -1] Next day loss occurs: 94.737% of the time
+   
+Pattern appears: 0.36% of the time 
+Pattern: [1, 1, -1, -1, -1, -1, -1, 1] Next day gain occurs: 59.524% of the time
+   
+Pattern appears: 0.35% of the time 
+Pattern: [1, 1, -1, -1, -1, -1, 1, -1] Next day loss occurs: 60.976% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [1, 1, -1, -1, -1, -1, 1, 1] Next day gain occurs: 66.667% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [1, 1, -1, -1, -1, 1, -1, -1] Next day loss occurs: 65.000% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [1, 1, -1, -1, -1, 1, -1, 1] Next day gain occurs: 70.000% of the time
+   
+Pattern appears: 0.45% of the time 
+Pattern: [1, 1, -1, -1, -1, 1, 1, -1] Next day loss occurs: 57.692% of the time
+   
+Pattern appears: 0.53% of the time 
+Pattern: [1, 1, -1, -1, -1, 1, 1, 1] Next day gain occurs: 62.903% of the time
+   
+Pattern appears: 0.30% of the time 
+Pattern: [1, 1, -1, -1, 1, -1, -1, -1] Next day loss occurs: 54.286% of the time
+   
+Pattern appears: 0.30% of the time 
+Pattern: [1, 1, -1, -1, 1, -1, -1, 1] Next day gain occurs: 65.714% of the time
+   
+Pattern appears: 0.21% of the time 
+Pattern: [1, 1, -1, -1, 1, -1, 1, -1] Next day loss occurs: 68.000% of the time
+   
+Pattern appears: 0.35% of the time 
+Pattern: [1, 1, -1, -1, 1, -1, 1, 1] Next day gain occurs: 68.293% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, 1, -1, -1, 1, 1, -1, -1] Next day loss occurs: 54.348% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [1, 1, -1, -1, 1, 1, -1, 1] Next day loss occurs: 55.000% of the time
+   
+Pattern appears: 0.45% of the time 
+Pattern: [1, 1, -1, -1, 1, 1, 1, -1] Next day gain occurs: 53.846% of the time
+   
+Pattern appears: 0.71% of the time 
+Pattern: [1, 1, -1, -1, 1, 1, 1, 1] Next day gain occurs: 69.880% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [1, 1, -1, 1, -1, -1, -1, -1] Next day loss occurs: 57.500% of the time
+   
+Pattern appears: 0.15% of the time 
+Pattern: [1, 1, -1, 1, -1, -1, -1, -1] Next day loss occurs: 94.444% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [1, 1, -1, 1, -1, -1, -1, 1] Next day gain occurs: 59.375% of the time
+   
+Pattern appears: 0.17% of the time 
+Pattern: [1, 1, -1, 1, -1, -1, 1, -1] Next day gain occurs: 95.000% of the time
+   
+Pattern appears: 0.27% of the time 
+Pattern: [1, 1, -1, 1, -1, -1, 1, -1] Next day loss occurs: 59.375% of the time
+   
+Pattern appears: 0.12% of the time 
+Pattern: [1, 1, -1, 1, -1, -1, 1, -1] Next day loss occurs: 92.857% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, 1, -1, 1, -1, -1, 1, 1] Next day gain occurs: 73.913% of the time
+   
+Pattern appears: 0.25% of the time 
+Pattern: [1, 1, -1, 1, -1, 1, -1, -1] Next day loss occurs: 65.517% of the time
+   
+Pattern appears: 0.31% of the time 
+Pattern: [1, 1, -1, 1, -1, 1, -1, 1] Next day loss occurs: 52.778% of the time
+   
+Pattern appears: 0.22% of the time 
+Pattern: [1, 1, -1, 1, -1, 1, 1, -1] Next day gain occurs: 53.846% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, 1, -1, 1, -1, 1, 1, 1] Next day gain occurs: 67.391% of the time
+   
+Pattern appears: 0.36% of the time 
+Pattern: [1, 1, -1, 1, 1, -1, -1, -1] Next day loss occurs: 59.524% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, 1, -1, 1, 1, -1, -1, 1] Next day gain occurs: 60.870% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [1, 1, -1, 1, 1, -1, 1, -1] Next day loss occurs: 67.500% of the time
+   
+Pattern appears: 0.56% of the time 
+Pattern: [1, 1, -1, 1, 1, -1, 1, 1] Next day gain occurs: 64.615% of the time
+   
+Pattern appears: 0.48% of the time 
+Pattern: [1, 1, -1, 1, 1, 1, -1, -1] Next day gain occurs: 60.714% of the time
+   
+Pattern appears: 0.52% of the time 
+Pattern: [1, 1, -1, 1, 1, 1, -1, 1] Next day gain occurs: 62.295% of the time
+   
+Pattern appears: 0.69% of the time 
+Pattern: [1, 1, -1, 1, 1, 1, 1, -1] Next day loss occurs: 56.250% of the time
+   
+Pattern appears: 0.78% of the time 
+Pattern: [1, 1, -1, 1, 1, 1, 1, 1] Next day gain occurs: 67.033% of the time
+   
+Pattern appears: 0.02% of the time 
+Pattern: [1, 1, 1, -1, -1, -2, 1, 1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.38% of the time 
+Pattern: [1, 1, 1, -1, -1, -1, -1, -1] Next day loss occurs: 59.091% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, 1, 1, -1, -1, -1, -1, 1] Next day loss occurs: 55.556% of the time
+   
+Pattern appears: 0.42% of the time 
+Pattern: [1, 1, 1, -1, -1, -1, 1, -1] Next day gain occurs: 57.143% of the time
+   
+Pattern appears: 0.54% of the time 
+Pattern: [1, 1, 1, -1, -1, -1, 1, 1] Next day gain occurs: 50.794% of the time
+   
+Pattern appears: 0.36% of the time 
+Pattern: [1, 1, 1, -1, -1, 1, -1, -1] Next day gain occurs: 52.381% of the time
+   
+Pattern appears: 0.32% of the time 
+Pattern: [1, 1, 1, -1, -1, 1, -1, 1] Next day gain occurs: 59.459% of the time
+   
+Pattern appears: 0.45% of the time 
+Pattern: [1, 1, 1, -1, -1, 1, 1, -1] Next day loss occurs: 54.717% of the time
+   
+Pattern appears: 0.76% of the time 
+Pattern: [1, 1, 1, -1, -1, 1, 1, 1] Next day gain occurs: 58.427% of the time
+   
+Pattern appears: 0.35% of the time 
+Pattern: [1, 1, 1, -1, 1, -1, -1, -1] Next day loss occurs: 53.659% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, 1, 1, -1, 1, -1, -1, 1] Next day gain occurs: 54.348% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, 1, 1, -1, 1, -1, 1, -1] Next day gain occurs: 63.043% of the time
+   
+Pattern appears: 0.35% of the time 
+Pattern: [1, 1, 1, -1, 1, -1, 1, 1] Next day gain occurs: 70.732% of the time
+   
+Pattern appears: 0.45% of the time 
+Pattern: [1, 1, 1, -1, 1, 1, -1, -1] Next day gain occurs: 52.830% of the time
+   
+Pattern appears: 0.55% of the time 
+Pattern: [1, 1, 1, -1, 1, 1, -1, 1] Next day gain occurs: 62.500% of the time
+   
+Pattern appears: 0.35% of the time 
+Pattern: [1, 1, 1, -1, 1, 1, -1, 1] Next day loss occurs: 97.561% of the time
+   
+Pattern appears: 0.34% of the time 
+Pattern: [1, 1, 1, -1, 1, 1, 1, -1] Next day gain occurs: 97.500% of the time
+   
+Pattern appears: 0.67% of the time 
+Pattern: [1, 1, 1, -1, 1, 1, 1, -1] Next day loss occurs: 50.000% of the time
+   
+Pattern appears: 0.87% of the time 
+Pattern: [1, 1, 1, -1, 1, 1, 1, 1] Next day gain occurs: 52.941% of the time
+   
+Pattern appears: 0.45% of the time 
+Pattern: [1, 1, 1, 1, -1, -1, -1, -1] Next day gain occurs: 52.830% of the time
+   
+Pattern appears: 0.63% of the time 
+Pattern: [1, 1, 1, 1, -1, -1, -1, 1] Next day gain occurs: 58.904% of the time
+   
+Pattern appears: 0.43% of the time 
+Pattern: [1, 1, 1, 1, -1, -1, 1, -1] Next day loss occurs: 56.000% of the time
+   
+Pattern appears: 0.67% of the time 
+Pattern: [1, 1, 1, 1, -1, -1, 1, 1] Next day gain occurs: 61.538% of the time
+   
+Pattern appears: 0.44% of the time 
+Pattern: [1, 1, 1, 1, -1, 1, -1, -1] Next day gain occurs: 54.902% of the time
+   
+Pattern appears: 0.39% of the time 
+Pattern: [1, 1, 1, 1, -1, 1, -1, 1] Next day loss occurs: 51.111% of the time
+   
+Pattern appears: 0.65% of the time 
+Pattern: [1, 1, 1, 1, -1, 1, 1, -1] Next day gain occurs: 57.895% of the time
+   
+Pattern appears: 0.99% of the time 
+Pattern: [1, 1, 1, 1, -1, 1, 1, 1] Next day gain occurs: 53.448% of the time
+   
+Pattern appears: 0.33% of the time 
+Pattern: [1, 1, 1, 1, 1, -1, -1, -1] Next day gain occurs: 97.368% of the time
+   
+Pattern appears: 0.64% of the time 
+Pattern: [1, 1, 1, 1, 1, -1, -1, -1] Next day gain occurs: 50.667% of the time
+   
+Pattern appears: 0.64% of the time 
+Pattern: [1, 1, 1, 1, 1, -1, -1, 1] Next day gain occurs: 65.333% of the time
+   
+Pattern appears: 0.50% of the time 
+Pattern: [1, 1, 1, 1, 1, -1, 1, -1] Next day loss occurs: 65.517% of the time
+   
+Pattern appears: 1.12% of the time 
+Pattern: [1, 1, 1, 1, 1, -1, 1, 1] Next day gain occurs: 62.595% of the time
+   
+Pattern appears: 0.82% of the time 
+Pattern: [1, 1, 1, 1, 1, 1, -1, -1] Next day gain occurs: 52.083% of the time
+   
+Pattern appears: 0.99% of the time 
+Pattern: [1, 1, 1, 1, 1, 1, -1, 1] Next day gain occurs: 65.517% of the time
+   
+Pattern appears: 1.16% of the time 
+Pattern: [1, 1, 1, 1, 1, 1, 1, -1] Next day gain occurs: 60.000% of the time
+   
+Pattern appears: 2.18% of the time 
+Pattern: [1, 1, 1, 1, 1, 1, 1, 1] Next day gain occurs: 65.882% of the time
+   
