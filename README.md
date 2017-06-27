@@ -23,20 +23,6 @@ https://github.com/timestocome/StockMarketData
 
 
 
-<b>Spun off in another repository:</b> 
-
-https://github.com/timestocome/StockMarketMovingAverage  Moving average vs buy and hold 
-
-https://github.com/timestocome/FullyConnectedForwardFeedNets Fully connected  TensorFlow forward feed network to predict Nasdaq
-
-https://github.com/timestocome/StockMarketLinearRegression  Experiments in various regression techniques 
-
-https://github.com/timestocome/Gold Investigate gold prices over time
-
-https://github.com/timestocome/StockMarketTimeSeriesAnomalies Stock market/time series anomalies
-
-https://github.com/timestocome/TechnicalTrading Test technical trading algorithms
-
 
 
 <b>To code:</b>
