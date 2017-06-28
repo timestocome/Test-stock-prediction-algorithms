@@ -45,7 +45,7 @@ for f in features:
     for i in peaks_ix: peaks[i] = 1
     data[peaks_name] = peaks 
 
-    floor_ix = signal.find_peaks_cwt(data[f], np.arange(1, 253))
+    floor_ix = signal.find_peaks_cwt(inverted_signal, np.arange(1, 253))
     floors = np.zeros(len(data))
     for i in floor_ix: floors[i] = 1 
     data[floors_name] = floors 
@@ -58,5 +58,15 @@ inflection_dates = ['Peaks_Nasdaq', 'Floors_Nasdaq','Peaks_S&P', 'Floors_S&P', '
 
 data[inflection_dates].to_csv("inflectionDates.csv") 
 
+
+
+
+
+plt.figure(figsize=(16,16))
+plt.plot(data['Nasdaq'])
+plt.plot(data['Peaks_Nasdaq'], c='green')
+plt.plot(data['Floors_Nasdaq'], c='red')
+plt.savefig('Inflection_dates_nasdaq.png')
+plt.show()
 
 
