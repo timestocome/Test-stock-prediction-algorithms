@@ -1,21 +1,14 @@
 
 # http://github.com/timestocome
 
-# This is a very simple Reinforcement Learning example
-# took longer than expected to get it all running.
-#
-###########################################################################
-# Next update ToDos:
-###########################################################################
-# Allow different size trades, not just one share at a time
-# Simply code
-# Add Plots 
-# Add useful output for user
-
 
 
 # started with this code from book
 # fixed bugs, everything is working
+# streamlined code
+# added plots
+# improved commenting
+
 # https://github.com/BinRoot/TensorFlow-Book/blob/master/ch08_rl/rl.py
 
 
@@ -30,9 +23,8 @@ import random
 ##############################################################################
 # load data
 #############################################################################
-
-
-
+# data is just a list of opening prices
+# nasdaq.csv was downloaded from finance.yahoo.com
 def load_prices():
 
     data_in = pd.read_csv('nasdaq.csv', header=0)
@@ -66,36 +58,30 @@ train, test = load_prices()
 # network
 #############################################################################
 
-class DecisionPolicy:
-
-    def select_action(self, current_state, step):
-        pass
-
-    def update_q(self, state, action, reward, next_state):
-        pass
-
-
-class RandomDecisionPolicy(DecisionPolicy):
+# randomly choose an action ( buy, sell, hold )
+class RandomDecisionPolicy():
     
     def __init__(self, actions):
-    
         self.actions = actions
 
     
     def select_action(self, current_state, step):
-    
         action = self.actions[random.randint(0, len(self.actions) - 1)]
         return action
 
+    
+    def update_q(self, state, action, reward, next_state):
+        pass
 
 
 
-class QLearningDecisionPolicy(DecisionPolicy):
+
+class QLearningDecisionPolicy():
 
     def __init__(self, actions, n_input):
         
-        self.epsilon = 0.9
-        self.gamma = 0.001
+        self.epsilon = 0.9      # how frequently to try a random action 1-epsilon == random %   
+        self.gamma = 0.001      # how far back to remember
         self.actions = actions
         
         n_output = len(actions)
@@ -128,15 +114,14 @@ class QLearningDecisionPolicy(DecisionPolicy):
 
         threshold = min(self.epsilon, step / 1000.)
         
-        if random.random() < threshold:     # best
+        # if random number (0-1) > epsilon .9 try a random move ~10%
+        if random.random() < threshold:     # take best known action
 
-            # Exploit best option with probability epsilon
             action_q_vals = self.sess.run(self.q, feed_dict={self.x: current_state})
-            action_idx = np.argmax(action_q_vals)  # TODO: replace w/ tensorflow's argmax
+            action_idx = np.argmax(action_q_vals)  
             action = self.actions[action_idx]
         
         else:                               # random
-            # Explore random option with probability 1 - epsilon
             action = self.actions[random.randint(0, len(self.actions) - 1)]
         return action
 
@@ -144,7 +129,6 @@ class QLearningDecisionPolicy(DecisionPolicy):
 
 
     def update_q(self, state, action, reward, next_state):
-
 
         action_q_vals = self.sess.run(self.q, feed_dict={self.x: state})
         next_action_q_vals = self.sess.run(self.q, feed_dict={self.x: next_state})
@@ -166,14 +150,12 @@ def run_simulation(policy, budget, n_stocks, prices, history):
     share_value = 0
     transitions = list()
     n_simulations = len(prices) - history - 1
-
+    actions_taken = []      # save the last run of actions for plotting
     
 
     for i in range(n_simulations):
 
-        #if i % 100 == 0:
-        #    print('progress %.2f%%' % ((100. * i) / n_simulations))
-        
+
         # painful but necessary array shape manipulations
         budget = np.array([budget]).reshape(1,1)
         n_stocks = np.array([n_stocks]).reshape(1,1)
@@ -185,7 +167,8 @@ def run_simulation(policy, budget, n_stocks, prices, history):
         current_portfolio = budget + n_stocks * share_value
         action = policy.select_action(current_state, i)
         share_value = prices[i + history + 1]
-
+    
+        actions_taken.append(action)
 
         if action == 'Buy' and budget >= share_value:
             budget -= share_value
@@ -214,21 +197,23 @@ def run_simulation(policy, budget, n_stocks, prices, history):
 
     portfolio = budget + n_stocks * share_value
     
-    return portfolio
+    return portfolio, actions_taken
 
 
 
 def run_simulations(policy, budget, n_stocks, prices, history):
 
-    num_tries = 10
+    n_simulations = 10
     final_portfolios = list()
+    final_actions = list()
     
-    for i in range(num_tries):
+    for i in range(n_simulations):
 
-        final_portfolio = run_simulation(policy, budget, n_stocks, prices, history)
+        final_portfolio, final_actions = run_simulation(policy, budget, n_stocks, prices, history)
         final_portfolios.append(final_portfolio)
-    
-    return np.mean(final_portfolios), np.std(final_portfolios)
+        final_actions.append(final_actions)
+
+    return np.mean(final_portfolios), np.std(final_portfolios), final_actions
 
 
 
@@ -241,27 +226,56 @@ def run_simulations(policy, budget, n_stocks, prices, history):
 
 print("*********   run simulations ***********")
 
-if __name__ == '__main__':
 
-    prices, test = load_prices()
+prices, test = load_prices()
 
-    actions = ['Buy', 'Sell', 'Hold']
-    history = 200
-    budget = 1000.0
-    n_stocks = 0
+actions = ['Buy', 'Sell', 'Hold']
+history = 21        # how large of a window of stock prices to view ( 21/mth, 63/qtr, 251/yr )
+budget = 1000.0     # begining cash on hand
+n_stocks = 0        # begining shares on hand
 
 
-    #plt_prices(prices)
-    policy = RandomDecisionPolicy(actions)
-    avg, std = run_simulations(policy, budget, n_stocks, prices, history)
-    print("Random trades: Init: $1000, Avg profit: $%.2f, Std: $%.2f " %(avg, std))
-    
-    
-    budget = 1000.0
-    n_stocks = 0
-    
-    policy = QLearningDecisionPolicy(actions, history + 2)
-    avg, std = run_simulations(policy, budget, n_stocks, prices, history)
-    print("Q Learning trades: Init: $1000, Avg profit: $%.2f, Std: $%.2f " %(avg, std))
+
+# buy on day one and hold
+buy_and_hold = budget * (prices[-1][0] - prices[0][0])
+print("Buy all and hold on day one Init: $1000, Profit: %.2f" % buy_and_hold)
+
+
+# try random first
+policy = RandomDecisionPolicy(actions)
+avg, std, _ = run_simulations(policy, budget, n_stocks, prices, history)
+print("Random trades: Init: $1000, Avg profit: $%.2f, Std: $%.2f " %(avg, std))
     
 
+# reset init conditions and try RL learning    
+budget = 1000.0
+n_stocks = 0
+    
+policy = QLearningDecisionPolicy(actions, history + 2)
+avg, std, actions = run_simulations(policy, budget, n_stocks, prices, history)
+print("Q Learning trades: Init: $1000, Avg profit: $%.2f, Std: $%.2f " %(avg, std))
+
+
+
+####  plot last run actions ##########
+
+# trading doesn't begin till we hit our history size
+buys = np.zeros(len(prices))
+sells = np.zeros(len(prices))
+
+for i in range(history, len(prices)-1):
+    if actions[i-history] == 'Buy': buys[i] = 1 * prices[i][0]
+    if actions[i-history] == 'Sell': sells[i] = 1 * prices[i][0]
+
+x = np.arange(0, len(prices))
+
+plt.figure(figsize=(24,16))
+plt.title('RL Bot stock trades')
+plt.xlabel('days')
+plt.ylabel('price')
+#plt.plot(prices)
+# it's not easy to see buys and sell on entire graph at once, better to use windows
+plt.scatter(x[0:1000], buys[0:1000], c='green', alpha=1., s=8.)
+plt.scatter(x[0:1000], sells[0:1000], c='red', alpha=1., s=8.)
+plt.savefig('bot_trades.png')
+plt.show()
