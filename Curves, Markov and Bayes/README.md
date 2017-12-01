@@ -16,8 +16,10 @@ Takes StockDataWithVolume.csv and computes histograms of daily gains, losses and
 
 ## ToDo:
 ### Markov Chains
+The state machine builder code is written, hope to get the rest of the Markov done next week (1st week Dec 17)
 Take gains and losses and look for various length patterns
 
 
 ### Bayesian Analysis
+The state machine builder code is done, planning on tackling this after I finish the Markov Chains
 Take gains and losses and recursively look for promising predictions
