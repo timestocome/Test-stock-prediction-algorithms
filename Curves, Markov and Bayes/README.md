@@ -13,8 +13,10 @@ Takes StockDataWithVolume.csv and computes histograms of daily gains, losses and
 
 ### Markov Chains
 Build a simple 1 dimensional Markov Chain using daily volatility and predict volatility for next several days
+#### ToDo: 
+Build a more complex version taking previous several days into account
 
 
-### ToDo
 ### Bayesian Analysis
+#### ToDo: 
 Take gains and losses and recursively look for promising predictions
