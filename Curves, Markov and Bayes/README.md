@@ -13,6 +13,7 @@ Takes StockDataWithVolume.csv and computes histograms of daily gains, losses and
 
 ### Markov Chains
 More info: https://hackernoon.com/from-what-is-a-markov-model-to-here-is-how-markov-models-work-1ac5f4629b71
+
 Build a simple 1 dimensional Markov Chain using daily volatility and predict volatility for next several days
 #### ToDo: 
 Build a more complex version taking previous several days into account
