@@ -21,8 +21,6 @@ See also Discrete-time Markov Chains
 https://en.wikipedia.org/wiki/Markov_chain
 
 Build a simple 1 dimensional Markov Chain using daily volatility and predict volatility for next several days
-#### ToDo: 
-Build a more complex version taking previous several days into account
 
 
 ### Bayesian Analysis
