@@ -22,7 +22,8 @@ data_file = 'NASDAQ.csv'
 ##########################################################################################################
 # utility functions
 #########################################################################################################
-choices = ['HG', 'MG', 'LG', 'S', 'LL', 'ML', 'HL']
+states = ['HG', 'MG', 'LG', 'S', 'LL', 'ML', 'HL']
+n_states = len(states)
 
 # break daily changes into buckets
 # I'm using 6 buckets HG +10%+, MG +5%-10%, LG +1/2%-5%, S -1/2%-1/2%, LL -1/2%-5%, ML -5%-10%, HL -10%+
@@ -140,7 +141,6 @@ def make_prediction(state_machine, prime, n_days=5, greedy=.9):
 
     # prime the loop
     prediction_chain = [prime]     # list of predictions
-    n_choices = len(choices)       # number of possiblities
     current_state = prime          # starting condition
 
     #print('prime', prime)
@@ -160,8 +160,8 @@ def make_prediction(state_machine, prime, n_days=5, greedy=.9):
                 
                 
         else:                  # pick random
-            r2 = np.random.randint(n_choices)
-            pick = choices[r2]
+            r2 = np.random.randint(n_states)
+            pick = states[r2]
 
         current_state = pick
         prediction_chain.append(pick)
@@ -192,7 +192,10 @@ probabilities = build_data_chain(data)
 #print(probabilities)
 
 markov = build_state_machine(data)
-#print(markov)
+print('.')
+print('##################################################################################')
+print('Markov Chain')
+print(markov)
 
 
                 
@@ -205,4 +208,55 @@ g = .9         # percent of time to pick most likely vs random
 
 predictions = make_prediction(markov, current, n, g)
 
+print('.')
+print('#####################################################################################')
 print('Predicted movements next 5 days starting with today\'s %s, non-random choices %f%% of time %s' %(current, g, predictions))
+
+
+
+#########################################################################################################
+# Build transition array
+# make predictions with transition array
+# rows are from state, columns are to state
+#########################################################################################################
+
+transition_matrix = np.zeros((n_states, n_states))
+
+
+for i in range(len(markov)):
+        s1 = (markov[i])[0]
+        s2 = (markov[i])[1]
+        p = (markov[i])[2]
+        
+        transition_matrix[states.index(s1)][states.index(s2)] = p
+
+
+
+# print matrix
+print('.')
+print('########################################################################################')
+print('One day probabilities using a transition matrix')
+print('%s\t %s\t %s\t %s\t %s\t %s\t %s\t %s\t' % (' ', states[0], states[1], states[2], states[3], states[4], states[5], states[6]))
+for i in range(len(states)):
+        print('%s: %.5f, %.5f, %.5f, %.5f, %.5f, %.5f %.5f' %(states[i], transition_matrix[i][0], transition_matrix[i][1], transition_matrix[i][2],
+                                                transition_matrix[i][3], transition_matrix[i][4], transition_matrix[i][5], transition_matrix[i][6]))
+
+
+
+print('.')
+print('*****************************************************************************************')
+# https://en.wikipedia.org/wiki/Markov_chain  ( see Discrete-time Markov chain -> Example )
+print('Two day probabilities if current day is LG')
+two_day_lg = np.zeros(len(states))
+lg_index = states.index('LG')
+two_day_lg[lg_index] = 1
+print(two_day_lg)
+two_day = two_day_lg * (transition_matrix * transition_matrix) # two_day_index * (transition_matrix)^n_days
+
+print('%s\t %s\t %s\t %s\t %s\t %s\t %s\t %s\t' % (' ', states[0], states[1], states[2], states[3], states[4], states[5], states[6]))
+for i in range(len(states)):
+    print('%s: %.6f' %(states[i], two_day[i][lg_index]))
+
+
+
+                            
