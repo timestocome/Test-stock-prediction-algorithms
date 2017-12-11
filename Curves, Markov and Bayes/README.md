@@ -20,7 +20,9 @@ See also Discrete-time Markov Chains
 
 https://en.wikipedia.org/wiki/Markov_chain
 
-Build a simple 1 dimensional Markov Chain using daily volatility and predict volatility for next several days
+A simple 1 dimensional Markov Chain using daily volatility and predict volatility for next several days:
+
+PredictMarketWithMarkovChain.py
 
 
 ### Bayesian Analysis
