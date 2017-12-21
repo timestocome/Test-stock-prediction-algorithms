@@ -28,7 +28,4 @@ PredictMarketWithMarkovChain.py
 ### Bayesian Analysis
 A very simple prediction model using 2 days movements
 
-
-#### ToDo: 
-
-The Bayes and Markov models give different predictions, next up is to grab both sets of numbers and compare them against historical values to see which is more accurate and to get accuracy numbers on both models
+* Both the Bayes and Markov mostly predict the same most likely movements for the next day given today's state. Remember past performance and future performance may have nothing to do with each other.
