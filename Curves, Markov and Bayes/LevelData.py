@@ -34,6 +34,8 @@ def plot_dataframe(d, t):
     plt.plot(d['NASDAQ'], label='NASDAQ')
     plt.plot(d['S&P'], label='S&P')
     plt.plot(d['DJIA'], label='DJIA')
+    plt.plot(d['BTC'], label='BTC')
+    plt.plot(d['Russell'], label='Russell')
     plt.title(t)
     plt.legend(loc='best')
     plt.show()
@@ -44,7 +46,7 @@ def plot_dataframe(d, t):
 ########################################################################
 # read in datafile created in LoadAndMatchDates.py
 data = pd.read_csv('StockDataWithVolume.csv', index_col='Date', parse_dates=True)
-features = ['DJIA', 'S&P', 'NASDAQ']
+features = ['DJIA', 'S&P', 'NASDAQ', 'Russell', 'BTC']
 
 
 # fill in a couple NaN
@@ -76,6 +78,12 @@ data = data.fillna(method='ffill')
 def ols(data):
     m = (data[-1] - data[0]) / len(data)
     b = data[0]
+    
+    print(data[-1], data[0], (data[-1] - data[0]))
+    print(m, b)
+    
+    
+    print('-----------------------')
 
     return m, b
     
@@ -106,11 +114,25 @@ data['leveled log S&P'] = data['log S&P'] - (b + data['step'] * m)
 # DJIA
 data['log DJIA'] = np.log(data['DJIA'])
 m, b = ols(data['log DJIA'])
-data['leveled log DJIA'] = data['log DJIA'] - b - data['step'] *  m
+data['leveled log DJIA'] = data['log DJIA'] - (b + data['step'] *  m)
+
+
+# BTC
+data['log BTC'] = np.log(data['BTC'])
+m, b = ols(data['log BTC'])
+data['leveled log BTC'] = data['log BTC'] - (b + data['step'] * m)
+
+
+# Russell
+data['log Russell'] = np.log(data['Russell'])
+m, b = ols(data['log Russell'])
+data['leveled log Russell'] = data['log Russell'] - (b + data['step'] * m)
+
+
 
 
 #print(data.columns.values)
-data = data[['leveled log Nasdaq','leveled log S&P', 'leveled log DJIA']]
+data = data[['leveled log Nasdaq','leveled log S&P', 'leveled log DJIA', 'leveled log Russell', 'leveled log BTC']]
 
 
 # save data
@@ -124,6 +146,9 @@ plt.figure(figsize=(12,12))
 plt.plot(data['leveled log Nasdaq'], label='NASDAQ')
 plt.plot(data['leveled log S&P'], label='S&P')
 plt.plot(data['leveled log DJIA'], label='DJIA')
+plt.plot(data['leveled log BTC'], label='BTC')
+plt.plot(data['leveled log Russell'], label='Russell')
+
 
 plt.legend(loc='best')
 plt.show()
