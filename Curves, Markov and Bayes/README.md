@@ -43,3 +43,12 @@ https://pdfs.semanticscholar.org/68bd/1b58980d4c5831b46725256aaee600be1734.pdf
 Platykurtic
 
 ... still looking for good info
+
+
+### Universality
+Read an article on Universality, a curve that happens when things fall between random and periodic. I was hoping to find a bit more info on market movements, esp BitCoin. No luck here either. Still looking
+
+
+https://www.quantamagazine.org/in-mysterious-pattern-math-and-nature-converge-20130205/
+
+
