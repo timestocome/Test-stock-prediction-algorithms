@@ -1,0 +1,46 @@
+.... training  196
+.... training  197
+.... training  198
+.... training  199
+----------------------------------------------------------------------
+Saved policy: rows are states, columns are actions
+Select highest action in row for state
+[[  1.80515068e+01   1.72504110e+01   6.21471322e+00]
+ [  1.48893803e+04   1.46284170e+04   4.95892897e+03]
+ [  2.04640469e+05   2.02487316e+05   6.77695539e+04]
+ [  5.21452055e+01   5.14076712e+01   1.67031099e+01]
+ [  3.24383562e-01   3.30410959e-01   7.87563030e-02]]
+----------------------------------------------------------------------
+Test saved policy at random starting locations
+Set starting cash, and run length for number of days to test policy
+Starting cash $ 100.00
+Test for 21 days
+----------------------------------------------------------------------
+Ending cash $ 111.18, Buys 1 Sells 0
+Ending cash $ 88.66, Buys 1 Sells 0
+Ending cash $ 66.85, Buys 1 Sells 0
+Ending cash $ 68.89, Buys 1 Sells 0
+Ending cash $ 107.24, Buys 1 Sells 0
+Ending cash $ 88.86, Buys 1 Sells 0
+Ending cash $ 94.62, Buys 1 Sells 0
+Ending cash $ 109.72, Buys 1 Sells 0
+Ending cash $ 117.60, Buys 1 Sells 0
+Ending cash $ 87.86, Buys 1 Sells 0
+Ending cash $ 73.14, Buys 1 Sells 0
+Ending cash $ 136.83, Buys 1 Sells 0
+Ending cash $ 118.48, Buys 1 Sells 0
+Ending cash $ 87.84, Buys 1 Sells 0
+Ending cash $ 105.04, Buys 1 Sells 0
+Ending cash $ 97.08, Buys 1 Sells 0
+Ending cash $ 93.72, Buys 1 Sells 0
+Ending cash $ 107.13, Buys 1 Sells 0
+Ending cash $ 103.14, Buys 1 Sells 0
+Ending cash $ 113.26, Buys 1 Sells 0
+
+
+
+
+
+
+* buy and hold seems to be the best option in this run
+* this simulation does not include transaction costs
