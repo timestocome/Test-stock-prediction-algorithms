@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed May 23 14:40:51 2018
+Created on Wed May 23 16:10:16 2018
 
 @author: ljcobb
 """
 
-
+.... training  93
+.... training  94
+.... training  95
 .... training  96
 .... training  97
 .... training  98
@@ -15,12 +17,12 @@ Created on Wed May 23 14:40:51 2018
 Saved policy: rows are states ['high_loss' 'low_loss' 'no_change' 'low_gain' 'high_gain']
 columns are actions ['Buy' 'Hold' 'Sell']
 Select highest action in row for state
-[[  0.84612022   0.15817156   0.86750459]
- [  0.5331762    0.20431461   0.71923507]
- [  1.56200683   0.52080002  13.8508126 ]
- [  0.2006972    0.36671412   0.53269723]
- [  0.517666     0.5921545    0.96042053]]
-high_loss sell
+[[  0.96367762   0.13306436   0.16912875]
+ [  0.65066351   0.71923507   1.43847014]
+ [ 12.5862684   13.8508126   27.70162521]
+ [  0.35283381   0.1462347    0.83547169]
+ [  0.02894875   0.18994815   0.58456687]]
+high_loss buy
 low_loss sell
 no_change sell
 low_gain sell
@@ -36,21 +38,24 @@ Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
+Ending cash $ 137.66, Buys 1 Sells 0
+Ending cash $ 100.00, Buys 0 Sells 0
+Ending cash $ 115.45, Buys 1 Sells 0
+Ending cash $ 134.95, Buys 1 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
-Ending cash $ 100.00, Buys 0 Sells 0
-Ending cash $ 100.00, Buys 0 Sells 0
-Ending cash $ 100.00, Buys 0 Sells 0
-Ending cash $ 100.00, Buys 0 Sells 0
-Ending cash $ 100.00, Buys 0 Sells 0
+Ending cash $ 134.55, Buys 1 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 Ending cash $ 100.00, Buys 0 Sells 0
 
 
-* Never buy any Coin is the recommendation from the policy iteration example
+* slightly smarter, figured out to buy when there's been a large dip and 
+* otherwise sell
+
+* nothing we didn't already know yet 

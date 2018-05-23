@@ -3,24 +3,16 @@
 # adapted from:
 #    Planning with Markov Decision Processes, An AI Perspective
 
-# This is the second example from section 3.3
-# Hoping for a smarter MDP as the algorithms get more advanced
+# This is the second example from section 3.4
+#  Adds in recursive Bellman equation
 #
-# policy iteration
-# n += 1        # increase time step
-# Evaluate: 
-#    V_pi(n-1)
-# Improve:
-#    for each s:
-#         Pi_n(s) = Pi_n-1(s)
-#         for a in actions:         
-#              compute: Q(V_pi(n-1)(s, a))
-#                       V_n(s) = min(Q(V_pi_n-1)(s, a))
-#         if Q(V_pi_n-1)(s, Pi_n-1) > V_n(s):
-#              Pi_c(s) = argmin(Q(V_pi_n-1)(s,a))
+# Value iteration
 #
-# until Pi_n ~ Pi_n-1
-# return Pi_n
+# V*(s) = 0
+# Q*(s,a) = Sum(transition_probability * (reward + V*(s')))
+#
+# Vn(s) = max(sum(transition_probability(s, s') * reward(s,a,s') + V*previous(s')))
+
 
 
 
@@ -83,7 +75,7 @@ transition_probability = transitions / n_samples
 
 # current state -> next state = reward
 policy = np.random.random((n_states, n_actions))
-value = np.zeros((n_states, n_actions))
+value = np.zeros(n_states)
 
 
 
@@ -141,6 +133,16 @@ for z in range(100):
             reward_buy = ((b2_coins - b1_coins) * data['dx'].iloc[n+1] + (b2_cash - b1_cash)) * transition_probability[s_now][s_next]
             reward_hold = ((h2_coins - h1_coins) * data['dx'].iloc[n+1] + (h2_cash - h1_cash)) * transition_probability[s_now][s_next]
             reward_sell = (((s2_coins - s1_coins) * data['dx'].iloc[n+1] + (s2_cash - s1_cash)) / cash_on_hand ) * transition_probability[s_now][s_next]
+            
+            value[s_now] = max(reward_buy, reward_hold, reward_sell)
+            
+            
+            # add in value of being in state s_next
+            reward_buy += value[s_next]
+            reward_hold += value[s_next]
+            reward_sell += value[s_next]
+            
+            
                                     
             # update policy if things worked out better
             if policy[s_now][0] < reward_buy: policy[s_now][0] = reward_buy
@@ -159,17 +161,12 @@ for z in range(100):
 # save policy
 ###############################################################################
 
-
-
-
-
-np.save('policy_iteration.npy', policy)
+np.save('value_iteration.npy', policy)
 
 print('----------------------------------------------------------------------')
 print('Saved policy: rows are states', states) 
 print('columns are actions', actions )
 print('Select highest action in row for state')
-
 
 
 print(policy)
@@ -183,6 +180,8 @@ for i in range(n_states):
         print(states[i], 'sell')
 
 
+
+
 ###############################################################################
 # test policy
 ###############################################################################
@@ -191,7 +190,7 @@ print('Test saved policy at random starting locations')
 print('Set starting cash, and run length for number of days to test policy')
 
 
-saved_policy = np.load('policy_iteration.npy')
+saved_policy = np.load('value_iteration.npy')
 
 
 n_test_runs = 20       # how many times to test policy
