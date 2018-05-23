@@ -1,0 +1,50 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 23 14:40:51 2018
+
+@author: ljcobb
+"""
+
+----------------------------------------------------------------------
+Saved policy: rows are states ['high_loss' 'low_loss' 'no_change' 'low_gain' 'high_gain']
+columns are actions ['Buy' 'Hold' 'Sell']
+Select highest action in row for state
+[[  0.04658266   0.39194422   0.09822602]
+ [  0.9302157    0.29536598   0.71923507]
+ [  1.56200683   0.46416121  13.8508126 ]
+ [  0.32052138   0.18365557   0.2942635 ]
+ [  0.67070131   0.16850255   0.16565274]]
+----------------------------------------------------------------------
+Test saved policy at random starting locations
+Set starting cash, and run length for number of days to test policy
+Starting cash $ 100.00
+Test for 21 days
+----------------------------------------------------------------------
+Ending cash $ 109.42, Buys 1 Sells 0
+Ending cash $ 88.68, Buys 1 Sells 0
+Ending cash $ 129.63, Buys 1 Sells 0
+Ending cash $ 119.79, Buys 1 Sells 0
+Ending cash $ 190.55, Buys 1 Sells 0
+Ending cash $ 102.89, Buys 1 Sells 0
+Ending cash $ 101.15, Buys 1 Sells 0
+Ending cash $ 131.84, Buys 1 Sells 0
+Ending cash $ 97.95, Buys 1 Sells 0
+Ending cash $ 102.28, Buys 1 Sells 0
+Ending cash $ 106.48, Buys 1 Sells 0
+Ending cash $ 113.45, Buys 1 Sells 0
+Ending cash $ 99.66, Buys 1 Sells 0
+Ending cash $ 105.90, Buys 1 Sells 0
+Ending cash $ 97.90, Buys 1 Sells 0
+Ending cash $ 90.64, Buys 1 Sells 0
+Ending cash $ 105.04, Buys 1 Sells 0
+Ending cash $ 103.34, Buys 1 Sells 0
+Ending cash $ 128.70, Buys 1 Sells 0
+Ending cash $ 92.56, Buys 1 Sells 0
+
+
+** Buy and hold still wins but this is only slightly more complex than the 
+** brute force algorithm
+
+**  assumes you have at least starting_cash and starting_coins on hand to trade 
+** each day
