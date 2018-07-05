@@ -40,13 +40,19 @@ n_outputs = 1   # predict next day
 
 x = []
 y = []
+
+
 for i in range(n_samples - n_inputs - 1):
-    
+
     x.append(index[i:i+n_inputs] )
-    y.append([index[i+n_inputs+1]])
+    y.append([index[i+1]])
     
 x = np.asarray(x)
 y = np.asarray(y)    
+
+
+
+
 
 #print(x.shape, y.shape)
  
@@ -79,8 +85,14 @@ print('data split', test_x.shape, test_y.shape)
 
 
 
-n_generations = 20
+n_generations = 10
 n_evaluate = 1
+
+
+
+clip_error = 4.
+lr = 0.1
+
 
 
 
@@ -89,17 +101,21 @@ n_evaluate = 1
 def eval_genomes(genomes, config):
     
     for genome_id, genome in genomes:
-        genome.fitness = n_train - 1
+        genome.fitness = n_train
         net = neat.nn.FeedForwardNetwork.create(genome, config)
     
         for xi, xo in zip(train_x, train_y):
             output = net.activate(xi)
-            error = (output[0] - xo[0])**2
-            if error < 8:
-                genome.fitness -= error
+            error = (output[0] - xo[0]) **2
+            
+            #genome.fitness -= lr * error
+            
+            if error < clip_error:
+                genome.fitness -= error 
             else:
-                genome.fitness -= 8.
-
+                genome.fitness -= clip_error 
+            
+            
 
 
 def run(config_file):
@@ -147,7 +163,7 @@ def run(config_file):
         predicted.append(output)
     
     
-    node_names = {-1:'4', -2: '3', -3: '2', -4: '1', -5: 'Yesterday', 0:'Predict Change'}
+    node_names = {-1:'4', -2: '3', -3: '2', -4: '1', -5: '0', 0:'Predict Change'}
     visualize.draw_net(config, winner, True, node_names=node_names)
     visualize.plot_stats(stats, ylog=False, view=True)
     visualize.plot_species(stats, view=True)
