@@ -70,6 +70,15 @@ print('data split', train_x.shape, train_y.shape)
 print('data split', test_x.shape, test_y.shape)
 
 
+# shuffle training data?
+z = np.arange(0, n_train-1)
+np.random.shuffle(z)
+
+tx = train_x[z[::-1]]
+ty = train_y[z[::-1]]
+
+train_x = tx
+train_y = ty
 
 
 ###############################################################################
@@ -108,6 +117,8 @@ def eval_genomes(genomes, config):
             output = net.activate(xi)
             error = (output[0] - xo[0]) **2
             
+            
+            # clipping the error keeps more species in play
             #genome.fitness -= lr * error
             
             if error < clip_error:
