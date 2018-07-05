@@ -5,6 +5,9 @@ Both successful and unsuccessful experiments will be posted. This section is thi
 
 The main goal of this project is to learn more about time series analysis and prediction. The stock market just happens to have lots of complicated time series and available data
 
+The first evolving neural net does the best job of predicting daily changes. It's impressive. That'll be my first go to tool
+
+The NASDAQ Evolved Network is a good simple example that should be easy to apply to any index
 
 
 <b>Data sources:</b>
@@ -20,16 +23,6 @@ https://stooq.com
 <b>Data and the cleaning programs:</b>
 
 https://github.com/timestocome/StockMarketData 
-
-
-
-
-
-<b>To code:</b>
-
-https://github.com/openai/evolution-strategies-starter  Try some GA trading bots with and without NN 
-
-https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164 Let's evolve a neural network 
 
 
 
@@ -101,6 +94,8 @@ https://research.google.com/pubs/pub41854.html Inferring causal impact using bay
 https://gbeced.github.io/pyalgotrade/ Python Algorithmic Trading Library
 
 http://pybrain.org/ PyBrain Machine Learning Library
+
+https://github.com/CodeReclaimers/neat-python Python NEAT Library for evolving neural networks
 
 
 <b>Podcasts:</b>
