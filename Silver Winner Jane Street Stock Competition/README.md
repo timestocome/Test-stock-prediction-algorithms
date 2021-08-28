@@ -10,7 +10,7 @@
 
 * One model bottleneck-neuralnet.ipynb cleans the data removing outlines, uses a bottleneck model to filter noise and then trains on batches of data by date. 
 
-*The second notebook flat-ffn.ipynb lets the network figure it all out and shuffles the data to prevent it from getting too comfortable with current market trends. This one was the best of my scores but both scores ended up closer than I expected.
+* The second notebook flat-ffn.ipynb lets the network figure it all out and shuffles the data to prevent it from getting too comfortable with current market trends. This one was the best of my scores but both scores ended up closer than I expected.
 
 
 
